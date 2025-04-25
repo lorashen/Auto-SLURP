@@ -1,0 +1,23 @@
+qa server is http://api.serpstack.com/search?access_key={key}&query={query}
+news query server is http://api.mediastack.com/v1/news?access_key={key}&keywords={keyword}&date={date}&sort=published_desc
+news subscription server is http://127.0.0.1:3020/news,intent(news_subscription),news_topic,
+weather server first request https://geocoding-api.open-meteo.com/v1/search?name={place_name}&count=10&language=en&format=json to get latitude and latitude, then request https://api.open-meteo.com/v1/forecast?latitude={latitude}&longitude={longitude}&hourly=temperature_2m&models=gfs_seamless
+stock server is first to get the stock symbol http://api.serpstack.com/search?access_key={key}&query={name} stock symbol , then request to this server http://api.marketstack.com/v1/eod?access_key={key}&symbols={symbol}&limit=5
+currency server is https://api.freecurrencyapi.com/v1/latest?apikey={key}&base_currency={currency}&currencies={currency2}
+alarm server is  http://127.0.0.1:3000/alarm, intent(alarm_query,alarm_set),event_name,descriptor,time,from_time,to_time,
+audiobook server is http://127.0.0.1:3001/audiobook,intent(play_audiobook), player_setting,house_place,media_type,descriptor,audiobook_name,author_name,
+calendar server is http://127.0.0.1:3002/calendar,intent(calendar_query,calendar_remove,calendar_set),event_name,descriptor,person,relation,date,time,from_time,to_time,
+cooking server is http://127.0.0.1:3003/cooking,intent(cooking_recipe),food_type,descriptor,
+datetime server is http://127.0.0.1:3004/datetime,intent(datetime_convert,datetime_query),place_name,descriptor,time_zone,time_zone2,date,time,time2,
+email server is http://127.0.0.1:3005/email,intent(email_query,email_sendemail),setting,person,to_person,from_person,relation,to_relation,from_relation,email_folder,time,date,email_address,app_name,query,content,personal_info,
+game server is http://127.0.0.1:3006/game,intent(play_game),game_name,
+iot server is http://127.0.0.1:3007/iot,intent(iot_coffee,iot_hue_lightchange,iot_hue_lightdim,iot_hue_lightup,audio_volume_mute,iot_hue_lightoff,audio_volume_up,iot_wemo_off,audio_volume_other,iot_cleaning,iot_wemo_on,audio_volume_down),device_type,house_place,time,color_type,change_to,change_amount,item_name,setting,
+lists server is http://127.0.0.1:3008/lists,intent(lists_query,lists_remove,lists_createoradd),list_name,item_name,descriptor,time,date,
+music server is http://127.0.0.1:3009/music,intent(play_music,music_likeness,playlists_createoradd,music_settings,music_dislikeness,music_query),player_setting,descriptor,artist_name,song_name,playlist_name,music_genre,query,\
+phone server is http://127.0.0.1:3010/phone,intent(phone_text,phone_notification),device_type,event_name,text,
+podcasts server is http://127.0.0.1:3011/podcasts,intent(play_podcasts),podcast_name,player_setting,podcast_descriptor,
+radio server is http://127.0.0.1:3013/radio,intent(play_radio,radio_query),radio_name,app_name,person_name,music_genre,device_type,house_place,player_setting,descriptor,query,time,
+recommendation server is http://127.0.0.1:3014/recommendation,intent(recommendation_events,recommendation_movies,recommendation_locations),business_type,food_type,movie_type,movie_name,date,place_name,event_name,descriptor,\
+social server is http://127.0.0.1:3015/social,intent(social_query,social_post),media_type,person,business_name,content,date,descriptor,
+takeaway server is http://127.0.0.1:3017/takeaway,intent(takeaway_query,takeaway_order),food_type,order_type,business_type,business_name,place_name,date,time,descriptor,
+transport sever is http://127.0.0.1:3018/transport,intent(transport_taxi,transport_ticket,transport_query,transport_traffic),transport_agency,transport_type,business_type,business_name,place_name,to_place_name,from_place_name,query,date,time,descriptor,
