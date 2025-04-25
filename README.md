@@ -1,5 +1,7 @@
-# Auto-SLURP
-A Benchmark Dataset for Evaluating Multi-Agent Frameworks in Smart Personal Assistant
+# Auto-SLURP: A Benchmark Dataset for Evaluating Multi-Agent Frameworks in Smart Personal Assistant
+
+Official repository for the paper Auto-SLURP: A Benchmark Dataset for Evaluating Multi-Agent Frameworks in Smart Personal Assistant
+
 ## 1. start simulated servers
 ```
 cd server
@@ -18,4 +20,14 @@ sh run.sh
 ## 3. run evaluation
 ```
 sh eval.sh
-``` 
+```
+<!--
+## Citing
+If you found the code, data or model useful, free to cite:
+@misc{
+      title={Auto-SLURP: A Benchmark Dataset for Evaluating Multi-Agent Frameworks in Smart Personal Assistant}, 
+      author={Lei Shen and Xiaoyu Shen},
+      year={2025},
+      archivePrefix={arXiv},
+}
+-->
