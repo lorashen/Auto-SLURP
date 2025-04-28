@@ -1,6 +1,6 @@
 # Auto-SLURP: A Benchmark Dataset for Evaluating Multi-Agent Frameworks in Smart Personal Assistant
 
-Official repository for the paper Auto-SLURP: A Benchmark Dataset for Evaluating Multi-Agent Frameworks in Smart Personal Assistant
+Official repository for the paper [Auto-SLURP: A Benchmark Dataset for Evaluating Multi-Agent Frameworks in Smart Personal Assistant](https://arxiv.org/abs/2504.18373)
 
 ## 1. start simulated servers
 ```
@@ -21,7 +21,7 @@ sh run.sh
 ```
 sh eval.sh
 ```
-<!--
+
 ## Citing
 If you found the code, data or model useful, free to cite:
 @misc{shen2025autoslurpbenchmarkdatasetevaluating,
@@ -33,4 +33,4 @@ If you found the code, data or model useful, free to cite:
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2504.18373}, 
 }
--->
+
