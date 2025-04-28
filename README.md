@@ -18,7 +18,9 @@ cd examples/autogen
 sh run.sh
 ```
 ## 3. run evaluation
-We are using gpt-4 for evaluating. Please set apikey properly. If you want to use other models, please modify eval.py accoring to the model config.
+We are using gpt-4 for evaluating. Please set apikey properly. For e.g., export OPENAI_API_KEY="***".
+
+If you want to use other models, please modify eval.py.
 ```
 sh eval.sh
 ```
