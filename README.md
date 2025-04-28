@@ -25,7 +25,7 @@ sh eval.sh
 ## Citing
 
 If you found the code, data or model useful, free to cite:
-```rich-text-format
+```bibtex
 @misc{shen2025autoslurpbenchmarkdatasetevaluating,
       title={Auto-SLURP: A Benchmark Dataset for Evaluating Multi-Agent Frameworks in Smart Personal Assistant}, 
       author={Lei Shen and Xiaoyu Shen},
