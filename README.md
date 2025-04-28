@@ -23,6 +23,7 @@ sh eval.sh
 ```
 
 ## Citing
+```
 If you found the code, data or model useful, free to cite:
 @misc{shen2025autoslurpbenchmarkdatasetevaluating,
       title={Auto-SLURP: A Benchmark Dataset for Evaluating Multi-Agent Frameworks in Smart Personal Assistant}, 
@@ -33,4 +34,4 @@ If you found the code, data or model useful, free to cite:
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2504.18373}, 
 }
-
+```
