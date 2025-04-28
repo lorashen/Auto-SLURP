@@ -20,7 +20,7 @@ sh run.sh
 ## 3. run evaluation
 We are using gpt-4 for evaluating. Please set apikey properly. For e.g., export OPENAI_API_KEY="***".
 
-If you want to use other models, please modify eval.py.
+If you want to use other models, please modify eval.py. For instance, if you want to use deepseek-v3 from deepseek API, you can change the model to "deepseek-chat", and change the api to your deepseek api. You also need to change the base_url to "https://api.deepseek.com/v1".
 ```
 sh eval.sh
 ```
