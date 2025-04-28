@@ -4,6 +4,8 @@ Official repository for the paper [Auto-SLURP: A Benchmark Dataset for Evaluatin
 ## requirements
 To test the multi-agent frameworks, you need to first install the framework according to the instruction of the framework.
 
+We have tested CamelAI, Langgraph, AgentLite, and AutoGEN.
+
 ## 1. start simulated servers
 ```
 cd server
