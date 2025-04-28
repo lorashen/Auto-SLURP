@@ -1,6 +1,8 @@
 # Auto-SLURP: A Benchmark Dataset for Evaluating Multi-Agent Frameworks in Smart Personal Assistant
 
 Official repository for the paper [Auto-SLURP: A Benchmark Dataset for Evaluating Multi-Agent Frameworks in Smart Personal Assistant](https://arxiv.org/abs/2504.18373)
+## requirements
+To test the multi-agent frameworks, you need to first install the framework according to the instruction of the framework.
 
 ## 1. start simulated servers
 ```
@@ -13,6 +15,7 @@ Some external servers require API keys. Therefore, to test and send requests to 
 The LLM used in the example code also requires configuration. Please make sure to specify the model name and provide the corresponding API key.
 
 Please also remember to put the data files into ~/data. Or you can modify the data path in test.py.
+
 ```
 cd examples/autogen
 sh run.sh
