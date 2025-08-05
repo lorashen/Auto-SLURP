@@ -1,0 +1,1001 @@
+id,query,intent,slots,domain,action
+281,what is the exchange rate of us dollar to pound sterling,qa_currency,"['currency_name:us dollar', 'currency_name2: pound sterling']",qa,currency
+11085,take out the milk from the shopping list,lists_remove,"['list_name : shopping','item_name:milk']",lists,remove
+15274,please scan my social media and tell me what's happening,social_query,[],social,query
+8404,i want to know more about this event,calendar_query,['descriptor:this'],calendar,query
+15503,new tweet to consumer service,social_post,"['media_type : tweet', 'business_name : consumer service']",social,post
+7499,make new schedule for tomorrow meeting,calendar_set,"['date : tomorrow', 'event_name : meeting']",calendar,set
+3507,is there snow in the forecast,weather_query,['weather_descriptor : snow'],weather,query
+6878,schedule a meeting with the accounting department on two thirty pm on friday,calendar_set,"['event_name : meeting with accounting department', 'time : two thirty pm', 'date : friday']",calendar,set
+6402,give me some health tips,general_quirky,['content:give me some health tips'],qa,quirky
+13451,i would like my robot to feed and pet my dog when i'm not home,general_quirky,['content:i would like my robot to feed and pet my dog when i'm not home'],qa,quirky
+10048,how do i make a turkey,cooking_recipe,['food_type : turkey'],cooking,recipe
+8413,please alert me,calendar_set,[],calendar,set
+7292,i am unavailable from four to six in the evening tomorrow mark my calendar,calendar_set,"['time : four', 'time : six', 'timeofday : evening', 'date : tomorrow']",calendar,set
+13607,could you please confirm if leonardo is married,qa_factoid,['content : if leonardo is married'],qa,factoid
+7971,set a reminder for two days prior of the event,calendar_set,['date : two days'],calendar,set
+3114,i love this music can you please save this to my dance playlist and remember that i like it,music_likeness,['playlist_name:dance'],music,likeness
+6103,hey what will the weather be like to today in los angeles california,weather_query,"['date : today', 'place_name : los angeles california']",weather,query
+3486,speak softer please,audio_volume_down,[],iot,volume_down
+11186,i have my clothes list,lists_query,['list_name : clothes'],lists,query
+7890,clear haircut today,calendar_remove,"['event_name : haircut', 'date : today']",calendar,remove
+16317,did i get new emails from sarah,email_query,['from_person : sarah'],email,query
+6600,health,general_quirky,['content:health'],qa,quirky
+15652,help complaint to consumer service,social_post,"['content:complaint','business_name : consumer service']",social,post
+12104,kung fu panda three,recommendation_movies,['movie_name : kung fu panda three'],recommendation,movies
+14912,where was president madison born,qa_factoid,['content:where was president madison born'],qa,factoid
+13407,what causes osteoperosis,general_quirky,['content:what causes osteoperosis'],qa,quirky
+10019,please tell me how to i bake twelve oatmeal cookies,cooking_recipe,['food_type : oatmeal cookies'],cooking,recipe
+11911,anything good happening this weekend in the area,recommendation_events,['date : this weekend'],recommendation,events
+2093,bring me the title of current music,music_query,[],music,query
+9361,listen to radio,play_radio,[],radio,radio
+7916,remind me to take out the garbage at six pm,calendar_set,"['time : six pm','event_name:take out the garbage']",calendar,set
+15933,what new emails do i have,email_query,['descriptor:new'],email,query
+5297,get me the popular news from bbc,news_query,['media_type : bbc'],news,query
+6672,go on sweet talk me,general_quirky,['content:go on sweet talk me'],qa,quirky
+486,what time is it in new york city,datetime_query,['place_name : new york city'],datetime,query
+6516,has it been a busy day,general_quirky,['content:has it been a busy day'],qa,quirky
+1256,what's the funniest joke you know,general_joke,['joke_type : funniest'],qa,joke
+6027,turn on favorite songs,play_music,['playlist_name:favorite'],music,music
+14347,what is a hypothesis,qa_definition,['definition_word : hypothesis'],qa,definition
+4183,current time new york,datetime_query,['place_name : new york'],datetime,query
+1593,set notification from world news,news_subscription,['news_topic : world news'],news,subscription
+3091,what time is it in pacific standard time,datetime_query,['time_zone : pacific'],datetime,query
+1575,start the vacuum cleaner,iot_cleaning,['device_type : vacuum cleaner'],iot,cleaning
+12724,find me a train ticket to boston,transport_ticket,"['transport_type : train', 'place_name : boston']",transport,ticket
+13567,currency converter please,qa_currency,[],qa,currency
+16103,send an email to my brother and say wedding anniversary,email_sendemail,"['relation : brother', 'content : wedding anniversary']",email,sendemail
+7141,is this program is scheduled,calendar_query,['descriptor:this'],calendar,query
+12736,road traffic,transport_traffic,[],transport,traffic
+730,turn the lights off,iot_hue_lightoff,[],iot,hue_lightoff
+12779,reserve the closest uber,transport_taxi,['transport_agency : uber'],transport,taxi
+9827,resume the song from the audiobook by the beatles,play_audiobook,"['player_setting : resume', 'media_type : audiobook', 'audiobook_author : beatles']",audiobook,audiobook
+9116,could you reschedule my meeting,calendar_set,['event_name : meeting'],calendar,set
+17116,display list of recent emails,email_query,['descriptor:recent'],email,query
+12377,get me a uber,transport_taxi,['transport_agency : uber'],transport,taxi
+11361,shadi special podcast play it,play_podcasts,['podcast_name : shadi special'],podcasts,podcasts
+11536,add podcast favourites to playlist and start,play_podcasts,['player_setting : favourite'],podcasts,podcasts
+4654,set an alarm for six thirty am,alarm_set,['time : six thirty am'],alarm,set
+8642,add conference call at four pm to my reminders for today,calendar_set,"['event_name : conference call', 'time : four pm', 'date : today']",calendar,set
+16096,has amy sent me any new emails,email_query,"['from_person : amy','descriptor:new']",email,query
+8140,set a reminder for the thirteenth that i have a lunch with dale,calendar_set,"['date : thirteenth', 'meal_type : lunch', 'person:dale']",calendar,set
+6417,my day is going well add a memo,general_quirky,['content:my day is going well add a memo'],qa,quirky
+13740,whats the currency exchange rate for china,qa_currency,['currency_name : china'],qa,currency
+1811,start playlist and play music,play_music,['player_setting:playlist'],music,music
+8322,i want to know more about the fair this weekend,general_quirky,['content:i want to know more about the fair this weekend'],qa,quirky
+15177,please retweet this post on twitter,social_post,"['media_type : twitter','setting:repost']",social,post
+1722,what is the minimum temperature of london,weather_query,"['weather_descriptor : minimum temperature', 'place_name : london']",weather,query
+14622,describe what a sphere is,qa_definition,['definition_word : sphere'],qa,definition
+4968,who won the presidential election this year,qa_factoid,['content:who won the presidential election this year'],qa,factoid
+10709,add this to the list,lists_createoradd,[],lists,createoradd
+5062,please play me songs from the eighties,play_music,['music_genre : eighties'],music,music
+15563,clear out the problem,general_quirky,['content:clear out the problem'],qa,quirky
+891,play some christian music,play_music,['music_genre : christian'],music,music
+9305,tune to classic hits,play_radio,['radio_name : classic hits'],radio,radio
+14473,open stock price for name,qa_stock,[],qa,stock
+1301,tell me about the new foreign policy of trump,news_query,['news_topic : foreign policy of trump'],news,query
+12957,define elaborate,qa_definition,['definition_word : elaborate'],qa,definition
+14963,internet please,general_quirky,['content:internet please'],qa,quirky
+11257,olly play next recording,play_podcasts,['player_setting:next'],podcasts,podcasts
+1158,crack a joke,general_joke,[],qa,joke
+686,what is the time now in new york,datetime_query,['place_name : new york'],datetime,query
+11812,what movies are playing tonight,recommendation_movies,['timeofday : tonight'],recommendation,movies
+6962,can i know what i have to do the next saturday at six pm,calendar_set,"['date : next saturday', 'time : six pm']",calendar,set
+10077,find a recipe for dinner tonight,cooking_recipe,['meal_type : dinner'],cooking,recipe
+6045,add selected song,playlists_createoradd,[],music,music
+14615,divide two hundred by four,qa_maths,['content:divide two hundred by four'],qa,maths
+3581,turn off sound,audio_volume_mute,[],iot,volume_mute
+6039,will it be rainy day tomorrow,weather_query,"['weather_descriptor : rainy', 'date : tomorrow']",weather,query
+16320,i want to reply to bob smith's email,email_sendemail,"[""from_person : bob smith""]",email,sendemail
+103,tell me the weather this week,weather_query,['date : this week'],weather,query
+4013,let's suck out the dust,iot_cleaning,[],iot,cleaning
+3812,mute for fifteen minutes,audio_volume_mute,['time : fifteen minutes'],iot,volume_mute
+13774,how far is california from georgia,qa_factoid,['content:how far is california from georgia'],qa,factoid
+5328,rock,play_music,['music_genre : rock'],music,music
+385,what's sensational in time of india,news_query,['media_type : time of india'],news,query
+3785,turn off the bathroom light please,iot_hue_lightoff,['house_place : bathroom'],iot,hue_lightoff
+9561,play station gx in the radio,play_radio,['radio_name : station gx'],radio,radio
+9994,can you tell me the recipe to cook pav bhaji,cooking_recipe,['food_type : pav bhaji'],cooking,recipe
+9137,at what time is the italian cafe closed between lunch and dinner,general_quirky,['content:at what time is the italian cafe closed between lunch and dinner'],qa,quirky
+9011,is the thanks giving event on fourteenth of this month true,calendar_query,"['event_name : thanks giving', 'date : fourteenth of this month']",calendar,query
+4145,what alarms did i set today,alarm_query,['date : today'],alarm,query
+13984,consequences to actions,general_quirky,['content:consequences to actions'],qa,quirky
+1830,i want to eat some spicy thing,takeaway_order,['food_type : spicy'],takeaway,order
+1904,get me match highlights,news_query,['news_topic : match highlights'],news,query
+12329,call yellow cab,transport_taxi,['transport_type : yellow cab'],transport,taxi
+8570,will you mark that i am busy for an event tomorrow at two pm,calendar_set,"['date : tomorrow', 'time : two pm']",calendar,set
+12054,what's happening around town,recommendation_events,['place_name : around town'],recommendation,events
+4848,wake me up in thirty minutes,alarm_set,['time : thirty minutes'],alarm,set
+9545,i want to hear the bob cesca show,play_podcasts,['podcast_name:bob cesca show'],podcasts,podcasts
+15763,please check for new emails,email_query,['descriptor:new'],email,query
+13636,what is arnold schwarzenegger's birthday,qa_factoid,"[""content : arnold schwarzenegger's birthday""]",qa,factoid
+3146,play track one from my david bowie playlist,play_music,"['playlist_name : david bowie','index:one']",music,music
+13853,where on earth has the most volcanos,qa_factoid,['content:where on earth has the most volcanos'],qa,factoid
+11302,play last libertarian podcast,play_podcasts,['podcast_name : last libertarian'],podcasts,podcasts
+7891,cancel dinner tonight,calendar_remove,"['meal_type : dinner', 'timeofday : tonight']",calendar,remove
+8520,add event to calendar app,calendar_set,[],calendar,set
+14449,does pink have a new baby,qa_factoid,['content:does pink have a new baby'],qa,factoid
+884,set alarm for eight am,alarm_set,['time : eight am'],alarm,set
+3098,make the lights off,iot_hue_lightoff,[],iot,hue_lightoff
+8900,set repeating reminder for every sunday,alarm_set,['general_frequency : every sunday'],alarm,set
+14530,notify me when g. b. p. to u. s. d. rate as i expected,qa_currency,"['currency_name : g. b. p.', 'currency_name2 : u. s. d.']",qa,currency
+8857,remind upcoming meeting with eminem,calendar_set,"['event_name : meeting', 'person : eminem']",calendar,set
+5623,alarm ten am,alarm_set,['time : ten am'],alarm,set
+11778,where is a good wine bar near me,recommendation_locations,"['business_type : wine bar','place_name:near me']",recommendation,locations
+5615,what's the name of the piece you are playing,music_query,[],music,query
+10125,what is the difference between bake and broil,general_quirky,['content:the difference between bake and broil'],qa,quirky
+1180,find today's wapo articles about trump,news_query,"[""date : today's"", 'media_type : wapo', 'news_topic : trump']",news,query
+8670,remove events from calendar,calendar_remove,[],calendar,remove
+14933,tell me the info about india's geography,qa_factoid,"[""place_name : india's geography""]",qa,factoid
+7528,thirteenth june is a day of election result please set it,calendar_set,"['date : thirteenth june', 'event_name : election result']",calendar,set
+4173,activate the vacuum cleaner and use it,iot_cleaning,['device_type : vacuum cleaner'],iot,cleaning
+8559,do i have anything scheduled for today,calendar_query,['date : today'],calendar,query
+2917,weekly weather report,weather_query,['date:weekly'],weather,query
+150,i like this song,music_likeness,[],music,likeness
+9254,please tune nine hundred and thirty eight fm radio mirchi,play_radio,['radio_name : nine hundred and thirty eight fm'],radio,radio
+14879,meaning of,qa_definition,[],qa,definition
+6801,show me my meetings this friday,calendar_query,"['date : this Friday','event_name:meeting']",calendar,query
+13348,i need to ask you how many angels can dance on a pinhead,general_quirky,['content:how many angels can dance on a pinhead'],qa,quirky
+7314,what's for today,calendar_query,['date : today'],calendar,query
+13927,how much is lebron james worth,qa_factoid,['content:how much is lebron james worth'],qa,factoid
+15593,tweet complain at comcast,social_post,"['media_type : tweet', 'business_name : comcast','content:complain']",social,post
+1744,what do you think,general_quirky,['content:what do you think'],qa,quirky
+348,will it rain tomorrow,weather_query,"['weather_descriptor : rain', 'date : tomorrow']",weather,query
+5321,show weather,weather_query,[],weather,query
+16455,add new email to my contacts macs@gmail dot com,email_addcontact,['email_address : macs@gmail dot com'],email,addcontact
+10503,add the post office to my list of errands for saturday,lists_createoradd,"['list_name : errands', 'date : Saturday','item_name:post office']",lists,createoradd
+8308,yesterday at noontime in times square what was the protest about,news_query,"['date : yesterday', 'time : noontime', 'news_topic:in times square what was the protest about']",news,query
+4154,turn off my wifi,iot_wemo_off,[],iot,wemo_off
+4073,what day is the fifth,datetime_query,['date : fifth'],datetime,query
+16668,have any emails come in since four hundred today,email_query,"['time : four hundred', 'date : today']",email,query
+16376,alexa please send an email to mom,email_sendemail,['to_relation : mom'],email,sendemail
+15655,tweet to google costumer service my new nexus phone stop working help please,social_post,"['media_type : tweet','business_name:google costumer service', 'content:my new nexus phone stop working help please']",social,post
+14304,what's the rate between pesos and yen,qa_currency,"['currency_name : pesos', 'currency_name2 : yen']",qa,currency
+5902,check if alarm is set for six am,alarm_query,['time : six am'],alarm,query
+12839,take me to layfayette st and canal,transport_query,['place_name : layfayette st and canal'],transport,query
+11920,what movies are out this week,recommendation_movies,['date : this week'],recommendation,movies
+7596,please schedule a meeting with derrick in haysi at noon,calendar_set,"['event_name : meeting', 'person : derrick', 'place_name : haysi', 'timeofday : noon']",calendar,set
+10156,i need to know how to make stuffed peppers,cooking_recipe,['food_type : stuffed peppers'],cooking,recipe
+10940,make a new shopping list,lists_createoradd,['list_name : shopping'],lists,createoradd
+7847,alert me when registration opens,calendar_set,['event_name : registration'],calendar,set
+7817,is this true about this date,calendar_query,['date:this date'],calendar,query
+5158,please play the latest song from the album abbas,play_music,['music_album : abbas'],music,music
+14605,did angelina jolie leave brad pitt,qa_factoid,['content:did angelina jolie leave brad pitt'],qa,factoid
+6621,latest movies in theatres,recommendation_movies,['descriptor:latest'],recommendation,movies
+448,run coffee maker,iot_coffee,['device_type : coffee maker'],iot,coffee
+6616,what is your age,general_quirky,['content:what is your age'],qa,quirky
+3734,turn the lights to red color,iot_hue_lightchange,['color_type : red'],,hue_lightchange
+11839,what's happening around me,recommendation_events,['place_name:around me'],recommendation,events
+5149,set the coffee maker to on,iot_coffee,['device_type : coffee maker'],iot,coffee
+2512,how do i set my coffee machine to make coffee,iot_coffee,['device_type : coffee machine'],iot,coffee
+12189,how do i get to the train station for a ticket,transport_query,['to_place_name : train station'],transport,query
+9112,do add this on my calendar,calendar_set,[],calendar,set
+974,what time is it in new york now,datetime_query,['place_name : new york'],datetime,query
+13619,are there any free events on in my area today,recommendation_events,"['date : today','descriptor:free','place_name:my area']",recommendation,events
+9363,let's play hits on the radio,play_radio,['radio_name:hits'],radio,radio
+6337,olly i have to tell you about my day,general_quirky,['content: i have to tell you about my day'],qa,quirky
+1803,which teams are playing today in the premier league,news_query,"['date : today', 'news_topic : teams are playing today in the premier league']",news,query
+11969,is there anything special going on nearby,recommendation_events,['place_name:nearby'],recommendation,events
+13199,do you know math,general_quirky,['content:do you know math'],qa,quirky
+16296,send an email to mom to tell her wyatt's birthday party is on sunday,email_sendemail,"['to_relation : mom', ""content:wyatt's birthday party is on sunday""]",email,sendemail
+16891,send john smith and email,email_sendemail,['to_person : john smith'],email,sendemail
+16719,let me know any new emails i've received,email_query,['descriptor:new'],email,query
+6162,delete alarm,alarm_remove,[],alarm,remove
+10568,remove the old music list,lists_remove,['list_name : old music'],lists,remove
+15968,if it is from a very familiar place mark it as important,general_quirky,['content:if it is from a very familiar place mark it as important'],qa,quirky
+7690,what do i have coming up,calendar_query,[],calendar,query
+13694,biography of person,general_quirky,['content:biography of person'],qa,quirky
+14608,what new movie is jennifer lawrence working on,qa_factoid,['content:what new movie is jennifer lawrence working on'],qa,factoid
+13858,list me the stock of apple right now,qa_stock,['business_name : apple'],qa,stock
+764,what is the weather forecast for this week,weather_query,['date : this week'],weather,query
+15020,how old is clint eastwood,qa_factoid,['person : clint eastwood'],qa,factoid
+11733,how is the new movie swat,recommendation_movies,['movie_name : swat'],recommendation,movies
+6694,hey i am having a bad day today what can i watch to cheer me up,recommendation_movies,['descriptor:cheer up'],recommendation,movies
+7542,please remind me about this tomorrow,calendar_set,['date : tomorrow'],calendar,set
+17052,search nandy,general_quirky,['content:nandy'],qa,quirky
+16446,please check for recent emailstudy from this sender,email_query,"['from_person:this sender','descriptor:recent']",email,query
+9062,can you put in lee's birthday on the twenty second of june,calendar_set,"[""event_name : lee's birthday"", 'date : twenty second of june']",calendar,set
+6410,what's happening in france today,news_query,"['news_topic : france', 'date : today']",news,query
+10571,android,general_quirky,['content:android'],qa,quirky
+12814,please book a ticket form jaipur to mumbai on tuesday,transport_ticket,"['from_place_name : jaipur', 'to_place_name : mumbai', 'date : tuesday']",transport,ticket
+16273,how do i reach sarah,email_querycontact,['person : sarah'],email,querycontact
+765,could you please give me up to date news headlines from my newest provider,news_query,['media_type : newest provider'],news,query
+10072,baking times for chicken in the oven,cooking_recipe,"['food_type : chicken', 'device_type : oven']",cooking,recipe
+3595,brighter,iot_hue_lightup,[],iot,hue_lightup
+5919,what is the latest update on the new york bridge proposal,news_query,['news_topic : new york bridge proposal'],news,query
+5578,i will need warm socks in winter in morning,weather_query,"['weather_descriptor : warm socks', 'weather_descriptor : winter', 'timeofday : morning']",weather,query
+1960,change the light to pink color,iot_hue_lightcolor,['color_type : pink'],iot,hue_lightcolor
+1247,i need to know if mr pizza delivers,takeaway_query,"['business_name : mr pizza', 'order_type : delivers']",takeaway,query
+2354,which type of music it is,music_query,[],music,query
+11825,look for shopping mall in sacramento for women's clothes,recommendation_locations,"[""descriptor:women's clothes"",'business_type : shopping mall', 'place_name : sacramento']",recommendation,locations
+1594,can you tell me the latest news,news_query,[],news,query
+2605,play my favorite music now,play_music,"[""player_setting:favorite""]",music,music
+10590,remove the second row from the list,lists_remove,['index:second'],lists,remove
+11266,play a podcast from my library,play_podcasts,['podcast_name : library'],podcasts,podcasts
+3761,get me up at eight am,alarm_set,['time : eight am'],alarm,set
+11633,what movies are showing in cinema today,recommendation_movies,"['business_type : cinema', 'date : today']",recommendation,movies
+4659,do not talk,audio_volume_mute,[],iot,volume_mute
+6710,are you real,general_quirky,['content:are you real'],qa,quirky
+3400,play a live version of elton john,play_music,"['artist_name : elton john','descriptor:live version']",music,music
+13473,when was the us got freedom,qa_factoid,['content:when was the us got freedom'],qa,factoid
+12343,check time of ten thousand eight hundred and eighty seven train from luni station on tuesday,transport_query,"['transport_name : ten thousand eight hundred and eighty seven', 'transport_type : train', 'from_place_name : luni station', 'date : tuesday']",transport,query
+15828,here is a new email address to be added to the contacts,email_addcontact,[],email,addcontact
+5396,please turn socket off,iot_wemo_off,[],iot,wemo_off
+17019,compose a reply to last email,email_sendemail,['descriptor:last'],email,sendemail
+14268,can you do nine plus two,qa_maths,['content:nine plus two'],qa,maths
+15548,tweet mobile complaint to samsung,social_post,"['media_type : tweet', 'business_name : samsung','content:mobile complaint']",social,post
+10100,do you know recipe for risotto,cooking_recipe,['food_type : risotto'],cooking,recipe
+15205,give me my facebook update every three hours,social_query,"['media_type : facebook', 'general_frequency : every three hours']",social,query
+12634,when is the next train leaving for austin,transport_query,"['transport_type : train', 'to_place_name : austin']",transport,query
+9107,what time does the zach brown concert on june third begin,calendar_query,"['event_name : zach brown concert', 'date : june third']",calendar,query
+9640,open spotify and open workout,play_radio,['radio_name:spotify workout'],radio,radio
+15948,open contacts and call john smith,email_querycontact,['person : john smith'],email,querycontact
+14567,what is the largest active volcano on earth,qa_factoid,['content:what is the largest active volcano on earth'],qa,factoid
+9507,please find the radio station currently playing howard stern,play_radio,['radio_name:howard stern'],radio,radio
+329,seven years,play_music,['song_name : seven years'],music,music
+12339,book a train ticket for one one way for this tuesday at nine am,transport_ticket,"['transport_type : train', 'descriptor : one way', 'date : tuesday', 'time : nine am']",transport,ticket
+15364,can you let amazon know that this new phone case is junk,social_post,"['business_name : amazon','content:this new phone case is junk']",social,post
+16398,please send the email to jeff,email_sendemail,['to_person : jeff'],email,sendemail
+7117,get rid of the events on the nineteenth from my calendar,calendar_remove,['date : nineteenth'],calendar,remove
+6643,best paid jobs in digital marketing in my area,general_quirky,['content:best paid jobs in digital marketing in my area'],qa,quirky
+12354,give me the train time,transport_query,['transport_type : train'],transport,query
+15350,i'm unhappy with this pasta please help me,general_quirky,['content:i'm unhappy with this pasta please help me'],qa,quirky
+10855,need to check my list,lists_query,[],lists,query
+10563,can you create a list for me,lists_createoradd,[],lists,createoradd
+11177,add a wrist watch to the shopping list,lists_createoradd,"['list_name : shopping list','item_name:wrist watch']",lists,createoradd
+16146,give me the latest updates,news_query,[],news,query
+8856,delete all events in calendar,calendar_remove,['descriptor:all'],calendar,remove
+15721,tweet a disgusted face about mcdonalds,social_post,"['content:a disgusted face','media_type : tweet', 'business_name : mcdonalds']",social,post
+89,could you order sushi for tonight dinner,takeaway_order,"['food_type : sushi', 'timeofday : tonight', 'meal_type : dinner']",takeaway,order
+2690,turn off the socket,iot_wemo_off,['device_type : socket'],iot,wemo_off
+9384,play cnn radio,play_radio,['radio_name : cnn radio'],radio,radio
+9542,let me listen the latest news program on radio,play_radio,['radio_name:news'],radio,radio
+279,what is today's forecast for berlin,weather_query,"[""date : today's"", 'place_name : berlin']",weather,query
+5722,display the seven day forecast for this week,weather_query,"['weather_descriptor : the seven day forecast', 'date : this week']",weather,query
+15815,what is a work phone number of emilia,email_querycontact,"['personal_info : work phone number', 'person : emilia']",email,querycontact
+8261,send me an alert and hour before my next appointment,calendar_set,"['time : hour before', 'event_name : appointment']",calendar,set
+9700,play biography of jackie kennedy,play_audiobook,['audiobook_name : biography of jackie kennedy'],audiobook,audiobook
+11990,what's a movie in theaters that doesn't suck,recommendation_movies,['place_name : theaters'],recommendation,movies
+2775,discontinue use of lights,iot_hue_lightoff,[],iot,hue_lightoff
+4896,lower the overhead lights,iot_hue_lightdim,['house_place : overhead'],iot,hue_lightdim
+12244,book a taxi to go to the movies at one,transport_taxi,"['transport_type : taxi', 'to_place_name : movies', 'time : one']",transport,taxi
+12685,what is the traffic like right now,transport_traffic,[],transport,traffic
+9330,play,play_music,[],music,music
+2414,i want to order a pizza from michael's pizza,takeaway_order,"['food_type : pizza', ""business_name : michael's pizza""]",takeaway,order
+9121,what days do i have booked,calendar_query,[],calendar,query
+9175,has my calendar been updated in the last ten minutes,calendar_query,['time : last ten minutes'],calendar,query
+8631,erase that from my calendar,calendar_remove,[],calendar,remove
+13064,explain quantum physics to me in language i understand,general_quirky,['content:explain quantum physics'],qa,quirky
+1400,i mostly pay attention,general_quirky,['content:i mostly pay attention'],qa,quirky
+1994,can you open my itunes,play_music,[],music,music
+6755,please clean my calendar,calendar_remove,[],calendar,remove
+2451,seven hundred,general_quirky,['content:seven hundred'],qa,quirky
+10931,what is on my playlist,music_query,['query:playlist'],music,query
+11616,are there any events going on downtown tonight,recommendation_events,"['place_name : downtown', 'timeofday : tonight']",recommendation,events
+9930,how long should i boil the egg,cooking_recipe,"['cooking_type : boil', 'food_type : egg']",cooking,recipe
+14229,what movies has emma watson acted in,qa_factoid,['content:what movies has emma watson acted in'],qa,factoid
+1617,once a new topic on politics comes up alert me,news_subscription,['news_topic : politics'],news,subscription
+4017,get rid of my current alarms,alarm_remove,[],alarm,remove
+12558,please book me a taxi uber,transport_taxi,"['transport_type : taxi', 'transport_agency : uber']",transport,taxi
+9061,what information do i have on reminders,calendar_query,[],calendar,query
+4290,should i bring a jacket with me tonight,weather_query,"['weather_descriptor : jacket', 'timeofday : tonight']",weather,query
+3936,what is the temperature,weather_query,['weather_descriptor : temperature'],weather,query
+12874,train ticket please,transport_ticket,['transport_type : train'],transport,ticket
+8939,hayathis daughter baby shower,calendar_set,"['person : hayathis', 'event_name : daughter baby shower']",calendar,set
+5593,play giants by banks and steelz,play_music,"['song_name : giants', 'artist_name : banks and steelz']",music,music
+2178,what is the current weather condition in my place,weather_query,['place_name : my place'],weather,query
+827,play bob dylan playlist,play_music,['playlist_name : bob dylan'],music,music
+6059,play rap music,play_music,['music_genre : rap'],music,music
+12127,i need to go to dundee at five am on sunday by train,transport_ticket,"['to_place_name : dundee', 'time : five am', 'date : sunday', 'transport_type : train']",transport,ticket
+14348,google what are the basic things humans need,general_quirky,['content : what are the basic things humans need'],qa,quirky
+17115,read list of new emails,email_query,['descriptor:new'],email,query
+9969,what ingredient can be used instead of saffron,general_quirky,['content:what ingredient can be used instead of saffron'],qa,quirky
+1059,turn on the robot vacuum cleaner,iot_cleaning,['device_type : robot vacuum cleaner'],iot,cleaning
+1176,who sings the song about a long black train,music_query,['song_name : long black train'],music,query
+4443,start the coffee machine at three,iot_coffee,"['device_type : coffee machine', 'time : three']",iot,coffee
+2225,play ella fitzgerals get happy,play_music,"['artist_name : ella fitzgerals', 'song_name : get happy']",music,music
+1413,can you make me some coffee olly,iot_coffee,[],iot,coffee
+3864,who sings the song that i am listening to right now,music_query,[],music,query
+15358,olly tweet apple that the iphone doesn't work,social_post,"['media_type : tweet', 'business_name : apple',""content:the iphone doesn't work""]",social,post
+14189,what is the price of starbuck's stock,qa_stock,['business_name : starbuck'],qa,stock
+4346,turn lights off,iot_hue_lightoff,[],iot,hue_lightoff
+1454,set the alarm off,alarm_remove,[],alarm,remove
+14787,what is the difference between roman and grigorean calendar,qa_factoid,['content:the difference between roman and grigorean calendar'],qa,factoid
+14241,how much is the euro worth versus us dollar,qa_currency,"['currency_name : euro', 'currency_name2 : us dollar']",qa,currency
+951,whats the weather like right now in new york,weather_query,['place_name : new york'],weather,query
+14315,is this the least or most important moment in history ever,general_quirky,['content:is this the least or most important moment in history ever'],qa,quirky
+12430,tell me the train arrival time to new york,transport_query,"['transport_type : train', 'to_place_name : new york']",transport,query
+4081,i want to set an alarm when i'm driving home tomorrow to remember to stop at the store and get food,alarm_set,"['date : tomorrow', 'event_name : stop at the store and get food']",alarm,set
+4305,play the song major tom by david bowie,play_music,"['song_name : major tom', 'artist_name : david bowie']",music,music
+13929,tell me a place that has snow now,general_quirky,['content:tell me a place that has snow now'],qa,quirky
+3008,can you raise the lights for me please,iot_hue_lightup,[],iot,hue_lightup
+1546,play my summer jams playlist,play_music,['playlist_name : summer jams playlist'],music,music
+16766,check new email,email_query,['descriptor:new'],email,query
+16975,please find a contact number of jayesh and tell me,email_querycontact,"['personal_info : number', 'person : jayesh']",email,querycontact
+5411,what are the top stories on cnn,news_query,['media_type : cnn'],news,query
+13683,what brand hair spray does donald trump use,qa_factoid,['content : what brand hair spray does donald trump use'],qa,factoid
+6897,remind me to pick up linda at five in the evening on seventh,calendar_set,"['event_name : pick up', 'person : linda', 'time : five', 'timeofday : evening', 'date : seventh']",calendar,set
+1191,if it's sunrise in stockholm what time is it in okinawa,datetime_convert,"['time : sunrise', 'place_name : stockholm', 'place_name2 : okinawa']",datetime,convert
+9857,my choice to play an audio from first,play_audiobook,[],audiobook,audiobook
+5529,what time should i go for a hike,weather_query,['weather_descriptor : hike'],weather,query
+11916,what are some theme parks nearby,recommendation_locations,['business_type : theme parks'],recommendation,locations
+15062,info on lisa ann please,qa_factoid,['content : lisa ann'],qa,factoid
+16763,emails in the last ten minutes,email_query,['time : last ten minutes'],email,query
+3099,show me some current events,news_query,[],news,query
+31,hoover the hallway,iot_cleaning,['house_place : hallway'],iot,cleaning
+3364,knock knock,general_quirky,[content:knock knock'],qa,quirky
+9768,keep reading the audiobook to me,play_audiobook,"['player_setting : resume', 'media_type : audiobook']",audiobook,audiobook
+16430,please send mom and dad an email asking how they are,email_sendemail,"['to_relation : mom', 'to_relation : dad', 'content:how they are']",email,sendemail
+2774,shut off lights,iot_hue_lightoff,[],iot,hue_lightoff
+16781,add this email address to my contacts and send an email to,email_addcontact,[],email,addcontact
+14214,find the ways of travel for the same,transport_query,[],transport,query
+13491,please give me the winning lottery numbers for this weekend,general_quirky,['content:the winning lottery numbers for this weekend'],qa,quirky
+12469,purchase ticket to new york city on train,transport_ticket,"['place_name : new york city', 'transport_type : train']",transport,ticket
+1489,play the latest songs by dalida,play_music,['artist_name : dalida'],music,music
+7570,what is the plan today,calendar_query,['date:today'],calendar,query
+9961,what is the best oven temperature to roast potatoes,cooking_recipe,"['cooking_type : roast', 'food_type : potatoes']",cooking,recipe
+11340,does allearsnet have a new podcast,play_podcasts,['podcast_name : allearsnet'],podcasts,podcasts
+2258,do i need a sweater today,weather_query,"['weather_descriptor : sweater', 'date : today']",weather,query
+1774,turn off the alarm,alarm_remove,[],alarm,remove
+10335,olly play poker with me,play_game,['game_name : poker'],game,game
+3029,i hate this song,music_dislikeness,[],music,dislikeness
+14995,what does situation mean,qa_definition,['definition_word : situation'],qa,definition
+8795,show pending reminders,calendar_query,[],calendar,query
+1351,will it be nice outside this week,weather_query,"['weather_descriptor : nice', 'date : this week']",weather,query
+14406,give the stock price details of motorolla,qa_stock,['business_name : motorolla'],qa,stock
+8280,i need to set reminder on fifteenth march,calendar_set,['date : fifteenth march'],calendar,set
+13181,check for all the movie theater prices and availability for a newly released movie in my location,recommendation_movies,"['place_name:my location','descriptor:new released']",recommendation,movies
+16056,reply to email,email_sendemail,[],email,sendemail
+14339,tell me about economy and gdp about india versus china,general_quirky,['content:economy and gdp about india versus china'],qa,quirky
+4921,turn off my first alarm,alarm_remove,['index:1'],alarm,remove
+13188,tell me how are the results of assembly elections in delhi going to come out,news_query,['place_name : delhi'],news,query
+8442,please modify my calendar with this event,calendar_set,[],calendar,set
+4137,could you please confirm if paradise does takeaway,takeaway_query,"['business_name : paradise', 'order_type : takeaway']",takeaway,query
+10815,add toothpaste to my shopping list,lists_createoradd,"['list_name : shopping','item_name:toothpaste']",lists,createoradd
+5948,play some good song from my play list,play_music,['music_descriptor : good song'],music,music
+80,set lights brightness higher,iot_hue_lightup,[],iot,hue_lightup
+15276,post a new status on facebook saying that i am enjoying the nice weather,social_post,"['media_type : facebook', 'content: i am enjoying the nice weather']",social,post
+9380,i want you to go to hot one hundred and five on the radio,play_radio,['radio_name : hot one hundred and five'],radio,radio
+13524,i would like it to help analyze ideas,general_quirky,['content:i would like it to help analyze ideas'],qa,quirky
+5524,weather at the moment,weather_query,[],weather,query
+3489,play music now please,play_music,[],music,music
+7981,send an alert before meeting,calendar_set,['event_name : meeting'],calendar,set
+12340,can you please book train tickets for two for this friday,transport_ticket,"['transport_type : train', 'date : friday','time:two']",transport,ticket
+2094,what is the music playing right now,music_query,[],music,query
+16589,who is the contact that last called me,email_querycontact,[],email,querycontact
+12452,uber me to the airport,transport_taxi,"['transport_agency : uber', 'to_place_name : airport']",transport,taxi
+5017,can you please make a coffee,iot_coffee,[],iot,coffee
+4227,is there any rain in the forecast for the next week,weather_query,"['weather_descriptor : rain', 'date : next week']",weather,query
+12759,driving time to los angeles,transport_query,['to_place_name : los angeles'],transport,query
+9506,olly let's hear wgrr one hundred and three point five,play_radio,['radio_name : wgrr one hundred and three point five'],radio,radio
+3031,i want to play the song again,play_music,['player_setting:replay'],music,music
+13043,i want sweet potato pie from a local bakery,takeaway_order,"['food_type:sweet potato pie','business_type:bakery']",takeaway,order
+6288,i had food as soon as i got up,general_quirky,['content:i had food as soon as i got up'],qa,quirky
+533,set an alarm for nine am,alarm_set,['time : nine am'],alarm,set
+8539,remind me about,calendar_set,[],calendar,set
+969,news articles on a particular subject,news_query,[],news,query
+16496,send a replay email,email_sendemail,[],email,sendemail
+13372,what time are the hockey games tonight,calendar_query,"['timeofday : tonight','event_name:hockey games']",calendar,query
+5196,i want to know about the brexit,news_query,['news_topic : the brexit'],news,query
+4780,what day does my birthday fall on this year june twenty seventh,datetime_query,[ 'date : june twenty seventh'],datetime,query
+9966,what's the easiest way to cook pasta,cooking_recipe,['food_type : pasta'],cooking,recipe
+6064,don't speak for an hour,audio_volume_mute,['time : an hour'],iot,volume_mute
+8150,do i have any remainder about birthday party,calendar_query,['event_name : birthday party'],calendar,query
+12098,show me nearby musical events,recommendation_events,"['event_name : musical events','place_name:nearby']",recommendation,events
+4224,when will my chinese food be delivered,takeaway_query,['food_type : chinese'],takeaway,query
+4319,i need to get up at ten tomorrow,alarm_set,"['time : ten', 'date : tomorrow']",alarm,set
+940,turn my morning alarm on,alarm_set,['timeofday : morning'],alarm,set
+14644,stock price,qa_stock,[],qa,stock
+12073,refer local current events,recommendation_events,['place_name:local'],recommendation,events
+1759,give me news on president trump,news_query,['news_topic : president trump'],news,query
+430,what is the weather like right now,weather_query,[],weather,query
+6578,love,general_quirky,['content:love'],qa,quirky
+10696,replace,lists_remove,[],lists,remove
+14545,tell me about india location,qa_factoid,['content : india location'],qa,factoid
+14126,show bio of rihanna,qa_factoid,['content : bio of rihana'],qa,factoid
+16560,respond to my bosses email with the word that i will be in at four in the evening,email_sendemail,"['to_relation : bosses','content:i will be in at four in the evening']",email,sendemail
+5468,have i need to take a sun glass,weather_query,['weather_descriptor : sun glass'],weather,query
+1993,can you turn up the lights,iot_hue_lightup,[],iot,hue_lightup
+11366,go back to previous episode of podcast,play_podcasts,['player_setting : previous episode'],podcasts,podcasts
+5050,off all type of active devices,iot_wemo_off,[],iot,wemo_off
+9088,wipe everything on my calendar,calendar_remove,[],calendar,remove
+10898,please add list of things to buy for party,lists_createoradd,['list_name : buy for party'],lists,createoradd
+2647,could you please create a pandora channel for adele,play_radio,['playlist_name : adele'],radio,radio
+16459,new message to newmail@gmail dot com,email_sendemail,['email_address : newmail@gmail dot com'],email,sendemail
+3542,change the lights in the living room to green and red,iot_hue_lightchange,"['house_place : living room', 'color_type : green and red']",iot,hue_lightchange
+8635,can you remind me to order the turkey three weeks before thanksgiving,calendar_set,"['event_name : order the turkey','date:three weeks before thanksgiving']",calendar,set
+5365,set alarm six am,alarm_set,['time : six am'],alarm,set
+17087,check for me new emails received from sara,email_query,"['from_person : sara','descriptor:new']",email,query
+8453,please put event into my calendar and mark it as a repeating event,calendar_set,['setting:repeat'],calendar,set
+11802,are there any good pizza places around here,recommendation_locations,['business_type : pizza places'],recommendation,locations
+393,play a retro song in my playlist,play_music,"['music_genre : retro','descriptor:in playlist']",music,music
+6683,economic affairs,news_query,['news_topic:economic'],news,query
+16987,any new email from john,email_query,"['from_person : john','descriptor:new']",email,query
+14461,features of google pixel,general_quirky,['content:features of google pixel'],qa,quirky
+8769,delete upcoming event,calendar_remove,[],calendar,remove
+9321,make the radio turn on now,play_radio,[],radio,radio
+2350,put dark colours instead of light ones in the house,iot_hue_lightchange,"['color_type : dark', 'house_place : house']",iot,hue_lightchange
+14442,where is fiji,qa_factoid,['content : fiji'],qa,factoid
+10338,play for me the game harry potter and the chamber of secrets,play_game,['game_name : harry potter and the chamber of secrets'],game,game
+10512,list everything left on my query,lists_query,[],lists,query
+11871,recommend a movie playing in my area,recommendation_movies,['place_name:my area'],recommendation,movies
+10206,how is rice prepared,cooking_recipe,['food_type : rice'],cooking,recipe
+2921,what are the news stories on the cnn website,news_query,['media_type : cnn'],news,query
+6550,i got promoted today it feels so good,general_quirky,['content:i got promoted today it feels so good'],qa,quirky
+46,what's up olly,general_greet,['content:what's up'],qa,greet
+10049,tell me how to make a poor boy sandwich,cooking_recipe,['food_type : poor boy sandwich'],cooking,recipe
+3624,news from cnn,news_query,['media_type : cnn'],news,query
+3138,make me a cup of coffee with salted carmel flavored cream,iot_coffee,['coffee_type : salted carmel flavored cream'],iot,coffee
+13223,why does sofia vergara look so young,general_quirky,['content:why does sofia vergara look so young'],qa,quirky
+10936,please remove my list of favorite albums,lists_remove,['list_name : favorite albums'],lists,remove
+3775,i want the smart socket off now,iot_wemo_off,['device_type : smart socket'],iot,wemo_off
+560,turn off eight am alarm,alarm_remove,['time : eight am'],alarm,remove
+4442,make coffee at three,iot_coffee,['time : three'],iot,coffee
+355,what day of the week is first april,datetime_query,['date : first april'],datetime,query
+4776,please tell me what alarms are on,alarm_query,[],alarm,query
+6572,do you have a boyfriend,general_quirky,['content:do you have a boyfriend'],qa,quirky
+5204,convert eight am manila time to new york time,datetime_convert,"['time : eight am', 'place_name : manila', 'place_name2 : new york']",datetime,convert
+14475,detail for stock price,qa_stock,[],qa,stock
+15756,please email my team,email_sendemail,['to_relation : team'],email,sendemail
+4361,give me some good sounds,play_music,[],music,music
+13986,top model car,general_quirky,['content:top model car'],qa,quirky
+6936,remind me to take my medicine at nine am,calendar_set,"['event_name : medicine', 'time : nine am']",calendar,set
+9198,please check my reminders,calendar_query,[],calendar,query
+15802,reply an email to jason that i will not come tonight,email_sendemail,"['person : jason', 'content: i will not come tonight']",email,sendemail
+14063,what was elvis presley's birthday,qa_factoid,"[""content:elvis presley's birthday""]",qa,factoid
+4383,what will the weather be tomorrow,weather_query,['date : tomorrow'],weather,query
+3021,take out available louies,takeaway_query,['business_name : louies'],takeaway,query
+14330,where was steve jobs born,qa_factoid,['content:where was steve jobs born'],qa,factoid
+1995,play the beatles,play_music,['artist_name : beatles'],music,music
+1510,quiet mode on until i am home from work,audio_volume_mute,[],iot,volume_mute
+6489,web searches,general_quirky,['content:web searches'],qa,quirky
+5122,check if default alarm is set,alarm_query,['descriptor:default'],alarm,query
+1318,start music app and play a song for me,play_music,[],music,music
+5658,play for me the music by the beatles,play_music,['artist_name : the beatles'],music,music
+124,olly tell me a joke,general_joke,[],qa,joke
+17142,what's in my inbox since we last looked,email_query,['email_folder : inbox'],email,query
+6015,decrease brightness of lights,iot_hue_lightdim,[],iot,hue_lightdim
+10031,i need a recipe that is from ingredients on my shopping list,"lists_query,cooking_recipe",['list_name : shopping'],lists,"query,recipe"
+3060,what is the news from that newsource,news_query,['media_type : newsource'],news,query
+9694,resume the playback of a child called it,play_audiobook,"['player_setting : resume','audiobook_name:a child called it']",audiobook,audiobook
+6974,i have a function at washington tomorrow remind it,calendar_set,"['event_name : function at washington', 'date : tomorrow']",calendar,set
+3623,what is going on in the world today,news_query,['date : today'],news,query
+5912,cut the songs in this musics,music_settings,['settings:cut'],music,settings
+16698,write a reply to my mother's email,email_sendemail,['to_relation : mother'],email,sendemail
+9568,play britney spears live concert series,play_music,['song_name:britney spears live concert series'],music,music
+6041,hey olly turn off the light please,iot_hue_lightoff,[],iot,hue_lightoff
+17147,reply to the mail with the following content hello you,email_sendemail,['content:hello you'],email,sendemail
+15610,post a tweet as follows very bad follow up by abc company not satisfied in my account,social_post,"['media_type : tweet','content:very bad follow up by abc company not satisfied in my account']",social,post
+11483,start playing ringcast,play_podcasts,['podcast_name : ringcast'],podcasts,podcasts
+7151,for every odd numbered sunday set a reminder for,calendar_set,['general_frequency : odd numbered sunday'],calendar,set
+16669,did i get an email from paul,email_query,['from_person : paul'],email,query
+1336,i like the songs of yeshudas please play it,play_music,['artist_name : yeshudas'],music,music
+8828,is calendar event true,calendar_query,[],calendar,query
+5579,can you change the volume at,audio_volume_other,[],iot,volume_other
+10430,delete the first item on the list,lists_remove,['index:1'],lists,remove
+2927,what time is it in austin,datetime_query,['place_name : austin'],datetime,query
+10494,remove pencil from stationary,lists_remove,"['list_name : stationary','item_name:pencil']",lists,remove
+12240,what is the traffic like on my commute home at five,transport_query,"['place_name : home', 'time : five']",transport,query
+2480,call for takeout,takeaway_order,['order_type : takeout'],takeaway,order
+1063,get hourly notification on sports news,news_subscription,"['general_frequency : hourly', 'news_topic : sports']",news,subscription
+2030,current song playing what is it,music_query,[],music,query
+14509,where did mahatma gandhi born,qa_factoid,['content:where did mahatma gandhi born'],qa,factoid
+6172,are sunglasses a good choice for today,weather_query,"['weather_descriptor : sunglasses', 'date : today']",weather,query
+15095,what region is miami located,qa_factoid,['content:what region is miami located'],qa,factoid
+5627,play for me music by the beatles,play_music,['artist_name : beatles'],music,music
+1266,if it's five am in berlin what time is it here,datetime_convert,"['time : five am', 'place_name : berlin']",datetime,convert
+6229,i had a bad day,general_quirky,['content:i had a bad day'],qa,quirky
+13758,how old is marian carey,qa_factoid,['content:how old is marian carey'],qa,factoid
+5600,check the dish price and all,takeaway_query,['food_type : dish'],takeaway,query
+7609,remove meeting reminder for tuesday,calendar_remove,"['event_name : meeting', 'date : tuesday']",calendar,remove
+8651,notify me about the event in my calendar,calendar_set,[],calendar,set
+4136,can you please play imogen heap,play_music,['artist_name : imogen heap'],music,music
+10217,find the recipe for sambar in cookingforu application,cooking_recipe,"['food_type : sambar', 'app_name : cookingforu']",cooking,recipe
+14838,what is a neutral density filter and would i want a gradient one or a solid one also which would be better in style between the screw on one and the square ones,qa_factoid,['content:what is a neutral density filter and would i want a gradient one or a solid one also which would be better in style between the screw on one and the square ones'],qa,factoid
+5006,what times are my alarms set for,alarm_query,[],alarm,query
+11250,read back my grocery list to me,lists_query,['list_name : grocery'],lists,query
+11862,recommend a movie for me,recommendation_movies,[],recommendation,movies
+512,by get marks,general_quirky,['content:by get marks'],qa,quirky
+15731,olly tweet a message to at&t and tell them my service is bad,social_post,"['media_type : tweet', 'business_name : at&t','content:my service is bad']",social,post
+7718,hey send a meeting invite to mr ross for this friday's meeting and block my calendar for friday afternoon,calendar_set,"['event_name : meeting', 'person : mr ross', 'date : this friday', 'timeofday : afternoon']",calendar,set
+8387,create reminder for laundry at eight pm,calendar_set,"['time : eight pm','event_name:laundry']",calendar,set
+14874,check stock price for dinky donuts,qa_stock,['business_name : dinky donuts'],qa,stock
+3378,no lights in the kitchen,iot_hue_lightoff,['house_place : kitchen'],iot,hue_lightoff
+2166,set an alarm for tomorrow at six in the morning,alarm_set,"['date : tomorrow', 'time : six', 'timeofday : morning']",alarm,set
+9706,play jingle bells,play_music,['song_name : jingle bells'],music,music
+14648,recipe please,cooking_recipe,[],cooking,recipe
+6221,i do not know how to answer this question you left a word or two out,general_quirky,['content:i do not know how to answer this question you left a word or two out'],qa,quirky
+16048,show me recent emails,email_query,['descriptor:recent'],email,query
+7014,give me the schedule for today's events,calendar_query,['date : today'],calendar,query
+5797,should i wear raincoat before getting out,weather_query,['weather_descriptor : raincoat'],weather,query
+1794,will trump visit russia anytime soon,news_query,['news_topic:trump visit russia anytime soon'],news,query
+2704,let's hear some indie rock okay,play_music,['music_genre : indie rock'],music,music
+11585,any cultural events in california,recommendation_events,['place_name : california'],recommendation,events
+8990,make event,calendar_set,[],calendar,set
+10224,it must be taste,general_quirky,['content:it must be taste'],qa,quirky
+12553,book me a cab going to location,transport_taxi,['transport_type : cab'],transport,taxi
+170,do they deliver home,takeaway_query,['order_type : deliver'],takeaway,query
+14820,more stock price,qa_stock,[],qa,stock
+4992,turn off sockets,iot_wemo_off,[],iot,wemo_off
+4516,olly change the color of the lights,iot_hue_lightcolor,[],iot,hue_lightcolor
+8206,don't let me forget to buy a gift for my sister,calendar_set,"['relation : sister','event_name:buy a gift']",calendar,set
+8126,schedule a meeting event in my calendar,calendar_set,['event_name : meeting'],calendar,set
+12856,directions please,transport_query,[],transport,query
+16361,do i have any new emails in the last hour,email_query,['time : last hour'],email,query
+2780,are there any upcoming concerts by,recommendation_events,['event_name : concerts'],recommendation,events
+6325,my day was extremely hard,general_quirky,[],qa,quirky
+7461,invite people to the calendar event,calendar_set,[],calendar,set
+5577,i will require full cover jacket if it is too stormy in evening,weather_query,"['weather_descriptor : full cover jacket', 'weather_descriptor : too stormy', 'timeofday : evening']",weather,query
+16163,who mailed me yesterday,email_query,['date : yesterday'],email,query
+967,can i get takeout from pf changs,takeaway_query,"['order_type : takeout', 'business_name : pf changs']",takeaway,query
+1677,what music is currently playing on,music_query,[],music,query
+13536,wanna netflix and chill,general_quirky,['content:wanna netflix and chill'],qa,quirky
+8992,show meetings,calendar_set,['event_name : meetings'],calendar,set
+63,tell me about my alarms,alarm_query,[],alarm,query
+16749,are thier any new emails for me today,email_query,"['date : today','descriptor:new']",email,query
+14138,please tell me what is the definition of cylinder,qa_definition,['definition_word : cylinder'],qa,definition
+3349,where is the car,general_quirky,['content:where is the car'],qa,quirky
+14597,what is the population of new york,qa_factoid,['content:the population of new york'],qa,factoid
+8084,what is the event agenda,calendar_query,[],calendar,query
+197,what time is it,datetime_query,[],datetime,query
+2203,bbc world headlines,news_query,"['media_type : bbc','place_name: world']",news,query
+16519,i need to add a new email to my contacts,email_sendemail,[],email,sendemail
+6495,can you please advise,general_quirky,['content:can you please advise'],qa,quirky
+12367,what's the best way to sheffield,transport_query,['to_place_name : sheffield'],transport,query
+5465,can i wear my sandals today,weather_query,"['weather_descriptor : sandals', 'date : today']",weather,query
+1683,tomorrow's temperature is to be hot yes or no,weather_query,"['date : tomorrow', 'weather_descriptor : temperature', 'weather_descriptor : hot']",weather,query
+3162,show me my alarms i have set,alarm_query,[],alarm,query
+7778,remind me what i am doing on sunday afternoon,calendar_set,"['date : sunday', 'timeofday : afternoon']",calendar,set
+3337,report weather for thirty three thousand seven hundred and seventy four,weather_query,['place_name:thirty three thousand seven hundred and seventy four'],weather,query
+8732,delete all dates,calendar_remove,[],calendar,remove
+4933,will it rain now,weather_query,['weather_descriptor : rain'],weather,query
+13467,it would be great if can give you law consultations,general_quirky,['content:it would be great if can give you law consultations'],qa,quirky
+11636,what movies are going around me,recommendation_movies,['place_name:around me'],recommendation,movies
+14414,describe about the computer hard disk,qa_definition,['definition_word : computer hard disk'],qa,definition
+6618,tell interesting news,news_query,['news_topic:interesting'],news,query
+12963,what is the definition of forensic,qa_definition,['definition_word : forensic'],qa,definition
+13102,how much is one plus one,qa_maths,['content: one plus one'],qa,maths
+4973,olly play i can't feel my face,play_music,"[""song_name : I can't feel my face""]",music,music
+15305,do i have any notifications from social media,social_query,['query:notification'],social,query
+5258,save this song to playlist,playlists_createoradd,[],music,createoradd
+2638,show me news about trump,news_query,['news_topic : trump'],news,query
+15229,is there any post from my friend mike in facebook,social_query,"['relation : friend', 'person : mike', 'media_type : facebook']",social,query
+9035,rahul marriage reminder,calendar_query,"['person : rahul', 'event_name : marriage']",calendar,query
+15249,did anyone like my photo i just posted,social_query,['query:like'],social,query
+15459,send a twitter complaint,social_post,"['media_type : twitter','content:complaint']",social,post
+2056,i never want to hear that song again,music_dislikeness,[],music,dislikeness
+5691,opinion pb,music_likeness,[],music,likeness
+1120,is there any special in politic,news_query,['news_topic : politic'],news,query
+10350,play racing,play_game,['game_name : racing'],game,game
+13341,i want it to remember my preferences and recommend me things based on them when i ask,general_quirky,['i want it to remember my preferences and recommend me things based on them when i ask'],qa,quirky
+4502,hey what time is it in london now,datetime_query,['place_name : london'],datetime,query
+15010,how much is one american dollars worth in england,qa_currency,"['currency_name : american dollars', 'currency_name2 : england']",qa,currency
+3326,turn the plug off,iot_wemo_off,[],iot,wemo_off
+10308,play ping pong,play_game,['game_name : ping pong'],game,game
+5966,can you please order some food for me,takeaway_order,[],takeaway,order
+7606,meet with joe tomorrow at three,calendar_set,"['person : joe', 'date : tomorrow', 'time : three']",calendar,set
+7262,create a notification reminder for meeting tomorrow,calendar_set,"['event_name : meeting', 'date : tomorrow']",calendar,set
+9940,find me a chocolate cake recipe,cooking_recipe,['food_type : chocolate cake'],cooking,recipe
+11328,play podcast for the philadelphia eagles content,play_podcasts,['podcast_name : philadelphia eagles content'],podcasts,podcasts
+4461,is fongs dine in only,takeaway_query,['business_name : fongs'],takeaway,query
+3361,what is the date for next tuesday,datetime_query,['date : next tuesday'],datetime,query
+16883,send an email to jerry ask what time will he be home tonight,email_sendemail,"['to_person : jerry', 'content:what time will he be home tonight']",email,sendemail
+15656,tweet a message to suqcom that i am still waiting for my delivery,social_post,"['media_type : tweet', 'business_name : suqcom','content:i am still waiting for my delivery']",social,post
+6967,can you check the facts on this issue,general_quirky,['content:can you check the facts on this issue'],qa,quirky
+451,get me the latest stock price for costco,qa_stock,['business_name : costco'],qa,stock
+11418,play duncan trussel's latest podcast,play_podcasts,"['podcast_name : duncan trussel','descriptor:latest']",podcasts,podcasts
+15847,how we can get credit,general_quirky,['content:how we can get credit'],qa,quirky
+6304,how are you feeling today,general_quirky,['content:how are you feeling today'],qa,quirky
+400,start playing,play_music,[],music,music
+3433,new pop music,play_music,['music_genre : pop'],music,music
+16314,send an email to margaret,email_sendemail,['to_person : margaret'],email,sendemail
+8388,i want to do laundry at eight pm create reminder,calendar_set,"['time : eight pm','event_name:laundry']",calendar,set
+4620,turn on new smart socket,iot_wemo_on,['device_type : smart socket'],iot,wemo_on
+6559,hey olly do you like my girlfriend,general_quirky,['content:do you like my girlfriend'],qa,quirky
+9275,only nine hundred and ninety nine fm is to be played on the radio,play_radio,['radio_name : nine hundred and ninety nine fm'],radio,radio
+13464,why are we here,general_quirky,['content:why are we here'],qa,quirky
+588,what is new news for today,news_query,['date : today'],news,query
+12723,buy me a ticket to boston,transport_ticket,['to_place_name : boston'],transport,ticket
+11437,please play the podcast for me,play_podcasts,[],podcasts,podcasts
+1832,play coldplay album,play_music,['artist_name : coldplay'],music,music
+16873,email naty for her birthday,email_sendemail,"['person : naty', 'content : birthday']",email,sendemail
+5958,can you please stop speaking,audio_volume_mute,[],iot,volume_mute
+4132,tell me the percentage of the chance of rain in seattle washington for today,weather_query,"['weather_descriptor : rain', 'place_name : seattle washington', 'date : today']",weather,query
+14859,what is the exchange rate with in one british pound,qa_currency,['currency_name : british pound'],qa,currency
+1622,explanation of the song,music_query,[],music,query
+1804,more lights please,iot_hue_lightup,[],iot,hue_lightup
+2156,i need to know the time right now what is it,datetime_query,[],datetime,query
+7956,can you make this event repetitive,calendar_set,['setting:repetitive'],calendar,set
+10442,remove event from my list,lists_remove,['item_name:event'],lists,remove
+4178,is there any news about the presidency,news_query,['news_topic : presidency'],news,query
+2708,olly i feel like dancing play me some rock n roll,play_music,['music_genre : rock n roll'],music,music
+3103,don't play this song again,music_dislikeness,[],music,dislikeness
+8535,will you remind me of the dentist appointment i have in two hours,calendar_set,"['event_name : dentist appointment', 'time : two hours']",calendar,set
+1549,will it rain this week,weather_query,"['weather_descriptor : rain', 'date : this week']",weather,query
+6774,set an event for friday,calendar_set,['date : friday'],calendar,set
+12999,how old is mariah carey,qa_factoid,['content:how old is mariah carey'],qa,factoid
+1653,when is the next time it will rain,weather_query,['weather_descriptor : rain'],weather,query
+14228,how much is the us dollar worth in canada,qa_currency,"['currency_name : us dollar', 'currency_name : canada']",qa,currency
+6109,store opinion on song,music_likeness,[],music,likeness
+1124,get sia's cheap thrills ready to play next,play_music,"['artist_name : sia', 'song_name : cheap thrills']",music,music
+3444,is it ten,datetime_query,[],datetime,query
+651,turn off room lights,iot_hue_lightoff,['house_place : room'],iot,hue_lightoff
+2957,is there an alarm for ten am,alarm_query,['time : ten am'],alarm,query
+13604,tell me where steve jobs was born,qa_factoid,['content: where steve jobs was born'],qa,factoid
+13023,show me recipes,cooking_recipe,[],cooking,recipe
+9541,play the sweet song on radio,play_radio,[],radio,radio
+9408,start radio play,play_radio,[],radio,radio
+14767,how would you describe a ball,qa_definition,['definition_word : ball'],qa,definition
+5116,i dont want any alarms,alarm_remove,[],alarm,remove
+2983,remove set alarm,alarm_remove,[],alarm,remove
+6747,how many reminders do i have,calendar_query,[],calendar,query
+11634,what movie should i watch today,recommendation_movies,['date : today'],recommendation,movies
+6789,set meeting with joanna on saturday four pm,calendar_set,"['person : joanna', 'date : Saturday', 'time : four pm']",calendar,set
+6116,info on this week weather,weather_query,['date : this week'],weather,query
+254,olly play a good track from my favourite jazz player,play_music,"['music_genre : jazz','player_setting:favourite']",music,music
+12707,navigation search,transport_query,[],transport,query
+12608,schedule taxi pickup for monday at noon,transport_taxi,"['transport_type : taxi', 'date : monday', 'timeofday : noon']",transport,taxi
+6582,hi you there,general_quirky,['content:hi you there'],qa,quirky
+15487,tweet kohls about the cleanliness of their store,social_post,"['media_type : tweet', 'business_name : kohls','content:the cleanliness of their store']",social,post
+10523,delete from playlist my old english songs list,playlists_remove,['playlist_name : old english'],music,remove
+4985,yes i like to save opinion on song playing and which player support that song,music_likeness,[],music,likeness
+13798,how many square miles is the average country on earth,qa_factoid,['content:how many square miles is the average country on earth'],qa,factoid
+8029,what events are upcoming today,calendar_query,['date : today'],calendar,query
+11306,play that podcast i was listening to yesterday,play_podcasts,['podcast_descriptor : listening to yesterday'],podcasts,podcasts
+6439,have you heard any good music lately,general_quirky,['content:have you heard any good music lately'],qa,quirky
+13761,what's a parsec,qa_definition,['definition_word : parsec'],qa,definition
+11024,delete to do list,lists_remove,['list_name : to do'],lists,remove
+6968,i need to confirm all meetings for today can the invite person,calendar_query,"['event_name : meetings', 'date : today']",calendar,query
+14504,olly how many meetings did mahatma gandhi undertake,qa_factoid,['content:how many meetings did mahatma gandhi undertake'],qa,factoid
+7161,remind this event in future,calendar_set,[],calendar,set
+6517,history,general_quirky,['content:history'],qa,quirky
+11751,what shops are within ten miles,recommendation_locations,"['business_type : shops', 'descriptor : within ten miles']",recommendation,locations
+3118,what is eastern standard time right noe,datetime_query,['time_zone : eastern'],datetime,query
+14117,where are pyramids located,qa_factoid,['content:where are pyramids located'],qa,factoid
+5229,i like music,general_quirky,['content:i like music'],qa,quirky
+10699,inform me on the items on the list,lists_query,[],lists,query
+14378,definition of velocity,qa_definition,['definition_word : velocity'],qa,definition
+8681,is it any ones birthday,calendar_query,['event_name : birthday'],calendar,query
+12419,fastest route to turiellos,transport_query,['to_place_name : turiellos'],transport,query
+804,hey siri mute the speakers,audio_volume_mute,[],iot,volume_mute
+132,order a takeaway,takeaway_order,['order_type : takeaway'],takeaway,order
+3306,what is the forecast for the week,weather_query,['date : week'],weather,query
+16356,did i email tom on the subject of gun control,email_query,"['to_person : tom','content:gun control']",email,query
+1933,will there be a fall in temperature by tonight,weather_query,"['weather_descriptor : temperature', 'timeofday : tonight']",weather,query
+4253,what's the current time in eastern standard,datetime_query,['time_zone : eastern'],datetime,query
+8116,during the timeframe of february one and march sixteen what meetings occurred,calendar_query,"['date : february one and march sixteen', 'event_name : meetings']",calendar,query
+12446,can you tell me the times the train leaves for chicago,transport_query,"['transport_type : train', 'to_place_name : chicago']",transport,query
+4567,read me the latest headlines from nytimescom,news_query,['media_type : nytimescom'],news,query
+3204,please note i like jazz and hate disco,"music_likeness,music_dislikeness","['music_genre : jazz'],['music_genre:disco']",music,"likeness,dislikeness"
+8347,what is going on on december fourth,calendar_query,['date : december fourth'],calendar,query
+2496,daily news,news_query,[],news,query
+4813,what is the time in another city,datetime_query,['place_name : another city'],datetime,query
+5652,switch wemo plug socket off,iot_wemo_off,['device_type : wemo plug socket'],iot,wemo_off
+12442,what is the traffic situation at the bazaar highway,transport_traffic,['place_name : bazaar highway'],transport,traffic
+15592,tweet complain @comcast,social_post,"['media_type : tweet', 'business_name : comcast','content:complain']",social,post
+7355,remind me to check the stew at six o'clock,calendar_set,"['event_name : check the stew', 'time : six']",calendar,set
+17144,hey check email,email_query,[],email,query
+12582,what time does the first metrolink arrive in the morning,transport_query,"['transport_type : metrolink', 'timeofday : morning']",transport,query
+11539,start next podcast,play_podcasts,['player_setting : next'],podcasts,podcasts
+10608,search the item,lists_query,[],lists,query
+13140,tell me all about hurricane,qa_definition,['definition_word : hurricane'],qa,definition
+13150,can you cook something special for me and my wife,general_quirky,['content:can you cook something special for me and my wife'],qa,quirky
+5557,i want reggae,play_music,['music_genre : reggae'],music,music
+4953,news of the train wreck,news_query,['news_topic : train wreck'],news,query
+11026,add new item to list,lists_createoradd,[],lists,createoradd
+6072,how many minutes do i need to wait to pick up my food from china on the go,takeaway_query,['business_name : china on the go'],takeaway,query
+1870,what month is today,datetime_query,['date : today'],datetime,query
+10365,play a game of contra as a second player,play_game,['game_name : contra'],game,game
+6077,i want to hear the latest world news from today,news_query,"['place_name : world', 'date : today']",news,query
+8653,remind me of the event in my calendar,calendar_set,[],calendar,set
+17054,just add a new email in my contacts from michael,email_addcontact,['person : michael'],email,addcontact
+2959,initialize the robot vacuum,iot_cleaning,['device_type : robot vacuum'],iot,cleaning
+15127,define speaker,qa_definition,['definition_word : speaker'],qa,definition
+4240,switch on the roomba,iot_cleaning,['device_type : roomba'],iot,cleaning
+15890,check to see if i have any new emails from my dad,email_query,"['from_relation : dad','description:new']",email,query
+6909,what is happening after one and before three pm,calendar_query,"['time : one', 'time : before three pm']",calendar,query
+9746,play pride and prejudice,play_audiobook,['audiobook_name : pride and prejudice'],audiobook,audiobook
+4313,will there be rain tomorrow in rome,weather_query,"['weather_descriptor : rain', 'date : tomorrow', 'place_name : rome']",weather,query
+9979,cook me some oats,cooking_recipe,['food_type : oats'],cooking,recipe
+1156,latest new on international women's day,news_query,"[""news_topic : international women's day""]",news,query
+2108,next play summer lovin,play_music,['song_name : summer lovin'],music,music
+3837,mute the music,audio_volume_mute,[],iot,volume_mute
+11029,add to list,lists_createoradd,[],lists,createoradd
+9236,go to channel one hundred and six point nine,play_radio,['radio_name : one hundred and six point nine'],radio,radio
+625,please play the radio gaga song,play_music,['artist_name : gaga'],music,music
+15618,tweet esurance and tell them they suck,social_post,"['media_type : tweet', 'business_name : esurance','content:they suck']",social,post
+7975,is there valet service at the event,general_quirky,['content:is there valet service at the event'],qa,quirky
+14505,who is the current prime minister of russia,qa_factoid,['content:current prime minister of russia'],qa,factoid
+5570,find food and order,takeaway_order,[],takeaway,order
+16506,add new email address and send email,email_sendemail,[],email,sendemail
+5721,show me tomorrows weather in this area,weather_query,"['date : tomorrow', 'place_name : this area']",weather,query
+13630,where's the closest zoo to where i'm at,recommendation_locations,[],recommendation,locations
+10296,could you please play temple run game for me,play_game,['game_name : temple run'],game,game
+3321,please make me a cup of coffee,iot_coffee,[],iot,coffee
+702,hi can you please turn lower the lights,iot_hue_lightdim,[],iot,hue_lightdim
+2438,send tech news,news_query,['news_topic : tech'],news,query
+1684,yes or no tomorrow's temperature is to be hot,weather_query,"['date : tomorrow', 'weather_descriptor : temperature', 'weather_descriptor : hot']",weather,query
+11650,both young drivers and provisional drivers crash more often than other drivers because they have not yet had the wide range of experiences they need to drive safely by themselves research has shown that driving experience is a major factor in reducing road crashes and that the safest time for young drivers is when they are driving under supervision while learning,general_quirky,['content:both young drivers and provisional drivers crash more often than other drivers because they have not yet had the wide range of experiences they need to drive safely by themselves research has shown that driving experience is a major factor in reducing road crashes and that the safest time for young drivers is when they are driving under supervision while learning'],qa,quirky
+8079,set a reminder in one hour for my bread to bake,calendar_set,"['time : one hour', 'event_name : bread to bake']",calendar,set
+2208,wooo,general_quirky,['content:wooo'],qa,quirky
+3694,i need an alarm set for five hundred and thirty am tomorrow,alarm_set,"['time : five hundred and thirty am', 'date : tomorrow']",alarm,set
+10171,what's the recipe for fish soup,cooking_recipe,['food_type : fish soup'],cooking,recipe
+16717,could you please email john saying i'm on leave,email_sendemail,"['person : john',""content:i'm on leave""]",email,sendemail
+7836,delete all events,calendar_remove,[],calendar,remove
+10772,remove my dentist's appointment from today's schedule,calendar_remove,"[""event_name : dentist's appointment"", 'date : today']",calendar,remove
+9554,play romantic music in nash fm ninety two point seven,play_radio,"['descriptor : romantic music', 'radio_name : nash fm ninety two point seven']",radio,radio
+4587,play my favorites,play_music,['player_setting:favorites'],music,music
+11999,tell me all events for today in my city,recommendation_events,"['date : today','place_name:my city']",recommendation,events
+16983,do we have morgan's office's number,email_querycontact,"['person : morgan', ""personal_info : office's number""]",email,querycontact
+2679,will the temperature stay about the same or is it going to get colder,weather_query,['weather_descriptor : temperature'],weather,query
+3020,does louie's do take out,takeaway_query,"[""business_name : louie's""]",takeaway,query
+16354,check for emails from my employer,email_query,['from_relation : employer'],email,query
+9760,stop play,play_audiobook,['player_setting : stop'],audiobook,audiobook
+8056,do i have a date on friday,calendar_query,"['date : friday','event_name:date']",calendar,query
+14083,where jackie chan currently live,qa_factoid,['content:where jackie chan currently live'],qa,factoid
+9156,remind,calendar_set,[],calendar,set
+9114,make a repeating reminder for this calendar event,calendar_set,['setting:repeating'],calendar,set
+7686,include mike and jack to festival calendar,calendar_set,"['person : mike', 'person : jack', 'event_name : festival']",calendar,set
+443,raise volume,audio_volume_up,[],iot,volume_up
+3522,please turn on my balcony lights,iot_hue_lighton,['house_place : balcony'],iot,hue_lighton
+8165,one thousand two hundred and thirty pm already you will have a meeting in ten mins,calendar_query,"['time : one thousand two hundred and thirty pm', 'event_name : meeting', 'time : ten mins']",calendar,query
+12020,tell me what clothing stores are within five miles of me,recommendation_locations,"['business_type : clothing stores','descriptor:within five miles']",recommendation,locations
+6388,my day was great,general_quirky,['content:my day was great'],qa,quirky
+16075,display recent email from john,email_query,['from_person : john'],email,query
+6746,set first week of june as holiday in my calendar,calendar_set,"['time : first week of june', 'event_name : holiday']",calendar,set
+6181,hey olly i missed you,general_quirky,['content : i missed you'],qa,quirky
+6701,general health tips,general_quirky,[],qa,quirky
+10097,i would like a cheeseburger,cooking_recipe,['food_type : cheeseburger'],cooking,recipe
+16890,what new email says,email_query,['descriptor:new'],email,query
+9326,please play radio station one right now,play_radio,['radio_name : radio station one'],radio,radio
+15199,what going on,social_query,[],social,query
+15946,find john smith in contacts,email_querycontact,['person : john smith'],email,querycontact
+11947,what are some restaurants near me,recommendation_locations,"['business_type : restaurants','place_name:near me']",recommendation,locations
+7353,just let me know next week's weather in california,email_sendemail,"['time : next weeks', 'place_name : california']",email,sendemail
+5614,what's on the radio right now,music_query,[],music,query
+8043,what time is my next appointment,calendar_query,['event_name : appointment'],calendar,query
+11505,replay my last played podcast,play_podcasts,['player_setting : replay'],podcasts,podcasts
+13580,how tall is mount everest,qa_factoid,['content:how tall is mount everest'],qa,factoid
+11514,olly can we listen to reply all podcast,play_podcasts,['podcast_name:reply all'],podcasts,podcasts
+5301,what is the weather going to be like on march twentieth two thousand and seventeen,weather_query,['date : march twentieth two thousand and seventeen'],weather,query
+2870,olly tell me my alarms,alarm_query,[],alarm,query
+4966,hello i want to turn off my wemo plug,iot_wemo_off,['device_type : wemo plug'],iot,wemo_off
+10753,what did i put down already on the walmart list,lists_query,['list_name : walmart list'],lists,query
+6568,what happens to me if you become sentient,general_quirky,['content:what happens to me if you become sentient'],qa,quirky
+15387,tweet my current location,social_post,"['media_type : tweet','content:location']",social,post
+6353,i need to buy gas,general_quirky,['content:i need to buy gas'],qa,quirky
+8568,will you send a calendar invite out to james and alice for brunch at eleven am on tuesday,calendar_set,"['person : james and alice', 'event_name : brunch', 'time : eleven am', 'date : tuesday']",calendar,set
+10673,please remove the following list,lists_remove,[],lists,remove
+4272,my coffee is cold please make more coffee,iot_coffee,[],iot,coffee
+783,play love songs,play_music,['song_name : love songs'],music,music
+1474,what are today's sports news,news_query,"['date : today', 'news_topic : sports']",news,query
+16120,help is to be sent only to jane,email_sendemail,['to_person : jane'],email,sendemail
+13679,can you tell me how many stomachs a cow has,qa_factoid,['content:how many stomachs a cow has'],qa,factoid
+15200,get me latest updates from facebook,social_query,['media_type : facebook'],social,query
+9726,stop audiobook,play_audiobook,['player_setting : stop'],audiobook,audiobook
+7295,please clear my calendar,calendar_remove,['time : clear'],calendar,remove
+11322,what are todays top podcasts,play_podcasts,"['date : today','descriptor:top']",podcasts,podcasts
+2007,please play thirteen,play_music,['song_name : thirteen'],music,music
+4077,turn the kitchen lights off,iot_hue_lightoff,['house_place : kitchen'],iot,hue_lightoff
+2330,display the local time of london at this moment,datetime_query,['place_name : london'],datetime,query
+14646,tell me about the cheapest flight fares to nj today,transport_ticket,"['place_name : nj', 'date : today','transport_type:flight']",transport,ticket
+9059,alert me at the time of the event,calendar_set,[],calendar,set
+7080,cancel everything on my calendar,calendar_remove,[],calendar,remove
+5043,set my alarm for twelve pm,alarm_set,['time : twelve pm'],alarm,set
+14822,to compare in people,general_quirky,['content:to compare in people'],qa,quirky
+5985,show me the latest news from the un,news_query,['media_type : un'],news,query
+11677,locate me the amazon restaurants,recommendation_locations,"['business_name : amazon', 'business_type : restaurants']",recommendation,locations
+3762,raise the lights,iot_hue_lightup,[],iot,hue_lightup
+6926,is it friday,datetime_query,[],datetime,query
+13346,just idle chit chat,general_quirky,['content:just idle chit chat'],qa,quirky
+10053,how do i make pizza,cooking_recipe,['food_type : pizza'],cooking,recipe
+8044,what's my schedule today,calendar_query,['date : today'],calendar,query
+1093,go to the washington post website,news_query,['media_type : washington post'],news,query
+782,play let me love you by ariana grande,play_music,"['song_name : let me love you', 'artist_name : ariana grande']",music,music
+10093,how is lasagne made,cooking_recipe,['food_type : lasagne'],cooking,recipe
+7539,do i have anything going on,calendar_query,[],calendar,query
+6305,what do you want to do today,general_quirky,['content:what do you want to do today'],qa,quirky
+4241,please stop talking,audio_volume_mute,[],iot,volume_mute
+9881,open audiobook,play_audiobook,[],audiobook,audiobook
+15155,can you upload my latest selfie in my facebook account,social_post,"['media_type : facebook','content:selfie']",social,post
+12212,call city cab to airport,transport_taxi,"['transport_type : cab', 'to_place_name : airport']",transport,taxi
+11384,can you please download my podcast file available in internet and play it once,play_podcasts,['player_setting:download'],podcasts,podcasts
+7111,what time is my doctor appointment on march thirty first,calendar_query,"['event_name : doctor appointment', 'date : march thirty first']",calendar,query
+10858,new list,lists_createoradd,[],lists,createoradd
+16419,please send an email to uncle john with the following yes i can make it,email_sendemail,"['to_relation : uncle', 'to_person : john','content:yes i can make it']",email,sendemail
+3408,is the weather going to be nice this weekend,weather_query,"['weather_descriptor : nice', 'date : this weekend']",weather,query
+2035,olly where is my food,takeaway_query,[],takeaway,query
+8284,remove birthday from calendar,calendar_remove,['event_name : birthday'],calendar,remove
+16082,send an email to peter and ask him how is he now can i do something to help him,email_sendemail,"['to_person : peter','content:how is he now can i do something to help him']",email,sendemail
+2320,what is the weather this friday,weather_query,['date : friday'],weather,query
+5134,find songs from my big band playlist,play_music,['playlist_name : big band playlist'],music,music
+9364,let's play music hits,play_music,['descriptor:hits'],music,music
+15203,new updates,social_query,[],social,query
+11157,please create new list,lists_createoradd,[],lists,createoradd
+6623,who are your developers,general_quirky,['content:who are your developers'],qa,quirky
+635,please start vacuum cleaner,iot_cleaning,['device_type : vacuum cleaner'],iot,cleaning
+4155,change volume to thirty five percent,audio_volume_other,['change_to : thirty five percent'],iot,volume_other
+6013,who is this on the radio,music_query,[],music,query
+9591,play bhuli bisri yaadien program on ninety one point three fm,play_radio,"['radio_name : ninety one point three fm','descriptor:bhuli bisri yaadien program']",radio,radio
+7693,do i have anything planned for the twenty first,calendar_query,['date : twenty first'],calendar,query
+10678,add spent five dollars in my expenses list,lists_createoradd,"['list_name : expenses','item_name:spent five dollars']",lists,createoradd
+6301,whats shakin bacon,general_quirky,['content : shakin bacon'],qa,quirky
+7503,where in dc is that meeting at one pm on friday,calendar_query,"['place_name : dc', 'event_name : meeting', 'time : one pm', 'date : friday']",calendar,query
+15055,which pole is colder south or north,qa_factoid,['content:which pole is colder south or north'],qa,factoid
+8640,i want to make a note on my calendar for the event tomorrow at the library,calendar_set,"['date : tomorrow', 'event_name : event at the library']",calendar,set
+7894,give me an update on the election in one hour,news_subscription,"['news_topic : election', 'time : one hour']",news,subscription
+16814,check emails,email_query,[],email,query
+12689,book a train ticket from here to charleston west virginia at eight am today,transport_ticket,"['transport_type : train', 'to_place_name : charleston west virginia', 'time : eight am', 'date : today']",transport,ticket
+14417,which ocean touches at our continent,qa_factoid,['content:which ocean touches at our continent'],qa,factoid
+12710,call taxi,transport_taxi,['transport_type : taxi'],transport,taxi
+13552,what is six divided by two,qa_maths,['content:six divided by two'],qa,maths
+3386,turn down the lights to medium,iot_hue_lightdim,['change_to:medium'],iot,hue_lightdim
+2566,turn off my wemo socket,iot_wemo_off,['device_type : wemo socket'],iot,wemo_off
+7257,please remind me to call mom in half an hour,calendar_set,"['event_name : call', 'relation : mom', 'time : in half an hour']",calendar,set
+10846,i don't have enough money to buy the nintendo switch right now can you please remove it on my amazon wishlist,lists_remove,"['item_name: nintendo switch','list_name:amazon wishlist']",lists,remove
+3674,i would like the like in the kitchen to be a different color,iot_hue_lightcolor,['house_place : kitchen'],iot,hue_lightcolor
+13178,remind me to contact old friends that i have not talked with in six months before they pass,calendar_set,['event_name:contact old friends that i have not talked with in six months before they pass'],calendar,set
+17151,my friend john has sent me a invitation card to his newly bought home say thanks to him in his mail id,email_sendemail,"['to_relation : friend', 'to_person : john','content:thanks ']",email,sendemail
+9316,play kiss fm for me,play_radio,['radio_name : kiss fm'],radio,radio
+16280,please send an email to cassy who is there on my family and friend list,email_sendemail,"['to_person : cassy', 'to_relation : family', 'to_relation : friend']",email,sendemail
+4491,what is the latest news on donald trump,news_query,['news_topic : donald trump'],news,query
+15457,i had a problem with my burger can you tweet bk,social_post,"['media_type : tweet', 'business_name : bk','content:i had a problem with my burger']",social,post
+3915,this is a good tune please notate file accordingly,music_likeness,[],music,likeness
+9149,what time is the black tie gala dinner supposed to begin,calendar_query,['event_name : black tie gala dinner'],calendar,query
+7502,what is on the agenda for the four pm meeting with joe,calendar_query,"['time : four pm', 'person : joe','event_name:meeting']",calendar,query
+1264,is my alarm set for tomorrow morning,alarm_query,"['date : tomorrow', 'timeofday : morning']",alarm,query
+4618,enable smart socket,iot_wemo_on,['device_type : smart socket'],iot,wemo_on
+15792,who am i meeting today,calendar_query,"['event_name : meeting', 'date : today']",calendar,query
+13854,when did elvis die,qa_factoid,['content:when did elvis die'],qa,factoid
+10915,begin a new list,lists_createoradd,[],lists,createoradd
+5688,please tell me the news headlines,news_query,[],news,query
+3323,please turn on my coffee pot,iot_coffee,['device_type : coffee pot'],iot,coffee
+15647,tweet complaint to at,social_post,"['media_type : tweet','content:complaint']",social,post
+3030,i love this song,music_likeness,[],music,likeness
+9620,can i get delilah on the radio in the bedroom,play_radio,"['house_place : bedroom','radio_name:delilah']",radio,radio
+1940,play the song title,play_music,[],music,music
+10812,add bananas to my shopping list,lists_createoradd,"['list_name : shopping','item_name:banana']",lists,createoradd
+4247,house change all lights to blue,iot_hue_lightcolor,['color_type : blue'],iot,hue_lightcolor
+9193,please set this date to repeat,calendar_set,['setting:repeat'],calendar,set
+6034,coffee,iot_coffee,[],iot,coffee
+13983,suffering consequences,general_quirky,['content:suffering consequences'],qa,quirky
+12008,are there any fun events in la today,recommendation_events,"['place_name : la', 'date : today','descriptor:fun']",recommendation,events
+5552,who takes less of duration of time for delivery,takeaway_query,['order_type : delivery'],takeaway,query
+10674,trash the current list,lists_remove,[],lists,remove
+12873,train ticket,transport_ticket,['transport_type : train'],transport,ticket
+1372,what's a good joke,general_joke,[],qa,joke
+15138,check my social networks,social_query,[],social,query
+16145,show me the most recent emails,email_query,[],email,query
+7808,remind me i take mom to the hairdresser's thursday at one thousand one hundred am,calendar_set,"['relation : mom', ""event_name : take to hairdresser's"", 'date : thursday', 'time : one thousand one hundred am']",calendar,set
+1440,play the latest rock songs having rating of four or above,play_music,"['music_genre : rock', 'music_descriptor : rating of four or above']",music,music
+17098,show me any emails received in the last hour,email_query,['time : last hour'],email,query
+1640,turn it up olly,audio_volume_up,[],iot,volume_up
+16162,send reply,email_sendemail,[],email,sendemail
+12004,olly please list the best clothing shops near me,recommendation_locations,"['business_type : clothing shops','place_name:near me']",recommendation,locations
+3305,what is the weather this week for miami,weather_query,"['date : this week', 'place_name : miami']",weather,query
+10355,play chess,play_game,['game_name : chess'],game,game
+9202,play my radio station,play_radio,[],radio,radio
+13689,what is a chair,qa_definition,['definition_word : chair'],qa,definition
+7120,what's my schedule like today,calendar_query,['date : today'],calendar,query
+8276,remove my next scheduled appointment please,calendar_remove,['event_name : appointment'],calendar,remove
+3819,please rate current song as five stars,music_likeness,[],music,likeness
+360,what is the current time,datetime_query,[],datetime,query
+4249,house can you make all the lights in the house blue,iot_hue_lightcolor,"['house_place : house', 'color_type : blue']",iot,hue_lightcolor
+5554,is this song ed sheeran,music_query,[],music,query
+15706,tweet @,social_post,['media_type : tweet'],social,post
+13741,what's the currency exchange rate for china,qa_currency,['currency_name : china'],qa,currency
+3298,power off the wemo plug,iot_wemo_off,['device_type : wemo plug'],iot,wemo_off
+5243,siri please turn the lights off in the bathroom,iot_hue_lightoff,['house_place : bathroom'],iot,hue_lightoff
+13907,define flabbergasted,qa_definition,['definition_word : flabbergasted'],qa,definition
+16406,alexa start email,email_sendemail,[],email,sendemail
+12717,what is the traffic like now,transport_traffic,[],transport,traffic
+14243,details on person,general_quirky,['content: details on person'],qa,quirky
+13666,what are pounds worth right now,qa_currency,['currency_name : pounds'],qa,currency
+11166,open google keep,lists_query,['app_name : google keep'],lists,query
+4377,whats the current weather,weather_query,[],weather,query
+7664,add a lunch with mike,calendar_set,"['meal_type : lunch', 'person : mike']",calendar,set
+3960,say the time,datetime_query,[],datetime,query
+12161,can you book an uber after i left for office,transport_taxi,['transport_agency : uber'],transport,taxi
+16777,show john's contact information,email_querycontact,['person : john'],email,querycontact
+14877,what are the climatic conditions in that area,qa_factoid,['content:what are the climatic conditions in that area'],qa,factoid
+13754,tell me the current price of exxon mobil stock,qa_stock,['business_name : exxon mobil'],qa,stock
+12511,travel book a train ticket,transport_ticket,['transport_type : train'],transport,ticket
+3870,what is the wake up time for my alarm i have set for the flight this weekend,alarm_query,"['alarm_type : wake up', 'date : this weekend','event_name:flight']",alarm,query
+12409,where is the nearest gas station,recommendation_locations,['business_type : gas station'],recommendation,locations
+9732,open davinci code audiobook,play_audiobook,['audiobook_name : davinci code'],audiobook,audiobook
+7044,remind me to start getting ready by five pm please,calendar_set,"['event_name : getting ready', 'time : five pm']",calendar,set
+2296,keep me up to date with today's nba scores,news_subscription,"['date : today', 'news_topic : nba scores']",news,subscription
+761,i want to know about this song,music_query,[],music,query
+3779,play youtube playlist blank,play_music,['playlist_name:youtube playlist blank'],music,music
+10119,how long do you cook a fifteen pound turkey,cooking_recipe,['food_type : turkey'],cooking,recipe
+10451,what i am going to do today,calendar_query,['date : today'],calendar,query
+16947,reply email,email_sendemail,[],email,sendemail
+5840,i need to order some food from papa john's,takeaway_order,"[""business_name : papa john's""]",takeaway,order
+8260,please alert me a day before jeff's birthday,calendar_set,"['date : a day before', 'person : jeff', 'event_name : birthday']",calendar,set
+5619,play previous song,play_music,['player_setting : previous'],music,music
+11426,most viewed list,lists_query,[],lists,query
+16880,email jerry regarding the meeting,email_sendemail,"['to_person : jerry', 'content : meeting']",email,sendemail
+4955,would you love to see,general_quirky,['content:would you love to see'],qa,quirky
+16662,did i receive any new emails from dan,email_query,"['from_person : dan','descriptor:new']",email,query
+5332,time between us and canada,datetime_convert,"['place_name : us', 'place_name2 : canada']",datetime,convert
+861,my set alarms,alarm_query,[],alarm,query
+4248,house lights blue,iot_hue_lightchange,['color_type : blue'],iot,hue_lightchange
+15598,open company name and find complaints,social_query,"['business_name : company name','query:complaint']",social,query
+14190,how much is starbuck's stock these days,qa_stock,['business_name : starbuck'],qa,stock
+16229,which contact haven't i called in twelve months,email_querycontact,['descriptor : haven't called in twelve months'],email,querycontact
+9457,play the song let it go,play_music,['song_name : let it go'],music,music
+13762,how much wood could a woodchuck chuck if a woodchuck could chuck wood,general_quirky,['content:how much wood could a woodchuck chuck if a woodchuck could chuck wood'],qa,quirky
+16872,find naty from my contacts and send her an email,email_sendemail,['to_person : naty'],email,sendemail
+16797,what is mr taxi's phone number it is in my contacts,email_querycontact,"[""business_name : mr taxi's"", 'personal_info : phone number']",email,querycontact
+767,could you please find me the latest news from a source that i do not usually go to,news_query,[],news,query
+14683,what is the hobby of ajay devgn,qa_factoid,['content:the hobby of ajay devgn'],qa,factoid
+8431,get rid of all my scheduled events,calendar_remove,[],calendar,remove
+10718,can you remove this item from the list,lists_remove,['descriptor:this'],lists,remove
+6432,today the following happened to me i had a meeting with george,general_quirky,['content:today the following happened to me i had a meeting with george'],qa,quirky
+15789,olly do i have any new emails,email_query,['descriptor:new'],email,query
+8765,put my dinner at red lobster on the calendar for today at nine,calendar_set,"['event_name : dinner at red lobster', 'date : today', 'time : nine']",calendar,set
+8001,can you erase the haircut i have scheduled for friday,calendar_remove,"['event_name : haircut', 'date : friday']",calendar,remove
+8598,remind me to pick up mark at the airport at six pm,calendar_set,"['event_name : pick up mark', 'place_name : airport', 'time : six pm']",calendar,set
+3911,i want to hear any songs that got grammys this year,play_music,['descriptor:grammy this year'],music,music
+15707,lets send a tweet,social_post,['media_type : tweet'],social,post
+1458,how hot is it in quebec,weather_query,"['weather_descriptor : hot', 'place_name : quebec']",weather,query
+16961,respond with,email_sendemail,[],email,sendemail
+9844,continue the last chapter of the audio book i was listening to,play_audiobook,['player_setting : resume'],audiobook,audiobook
+14762,dollar to euro exchange rate,qa_currency,"['currency_name : dollar', 'currency_name2 : euro']",qa,currency
+3566,what is the current time in chennai,datetime_query,['place_name : chennai'],datetime,query
+6055,did i leave the light on in the garage,iot_hue_lightoff,['house_place : garage'],iot,hue_lightoff
+14354,what's the answer to the universe,qa_factoid,['content:what's the answer to the universe'],qa,factoid
+9095,remove tonights dinner with shelly,calendar_remove,"['event_name : dinner', 'person: shelly','timeofday:tonight']",calendar,remove
+4347,cease operating lights,iot_hue_lightoff,[],iot,hue_lightoff
+15857,please send to new email address listed,email_sendemail,[],email,sendemail
+6473,the weather was bad today,general_quirky,['content:the weather was bad today'],qa,quirky
+15723,set feeling happy status on facebook,social_post,"['media_type : facebook','content:happy status']",social,post
+9438,can you play me a rap song on the radio,play_radio,['descriptor : rap'],radio,radio
+3435,remove the latest alarm,alarm_remove,['descriptor:latest'],alarm,remove
+71,i like senatra songs,music_likeness,['artist_name : senatra'],music,likeness
+15092,find a description about a samsung tv,qa_definition,['definition_word : samsung tv'],qa,definition
+11023,remove shopping list,lists_remove,['list_name : shopping'],lists,remove
+12291,ticket for bombay,transport_ticket,['to_place_name : bombay'],transport,ticket
+5930,any breaking news from the huffington post,news_query,['media_type : huffington post'],news,query
+16591,i just got an email from bill i need to answer it right now,email_sendemail,['to_person:bill'],email,sendemail
+13900,the definition of life,qa_definition,['definition_word : life'],qa,definition
+16427,how many new emails have i received today,email_query,"['date : today','descriptor:new']",email,query
+9138,when does the super bowl officially start,qa_factoid,['content:when does the super bowl officially start'],qa,factoid
+10687,if there is event of show then remove it,calendar_remove,['event_name:show'],calendar,remove
+8825,send me a reminder of my meeting with tom next friday,calendar_set,"['event_name : meeting', 'person : tom', 'date : next friday']",calendar,set
+9014,please set a notification on twenty third october about meeting with my colleague,calendar_set,"['date : twenty third october', 'event_name : meeting', 'relation : colleague']",calendar,set
+4201,power on wemo,iot_wemo_on,[],iot,wemo_on
+4702,please turn my speakers on google,audio_volume_up,[],iot,volume_up
+997,turn the living room's light off,iot_hue_lightoff,['house_place : living room'],iot,hue_lightoff
+4090,turn up the volume on my speakers,audio_volume_up,[],iot,volume_up
+4673,please list all my alarms,alarm_query,['descriptor:all'],alarm,query
+12392,tell me today's direction,transport_query,[],transport,query
+1452,remove the alarm for tomorrow,alarm_remove,['date : tomorrow'],alarm,remove
+4909,play songs by barenaked ladies,play_music,['artist_name : barenaked ladies'],music,music
+102,what's this week's weather,weather_query,['date : this week'],weather,query
+4653,set the speakers to mute,audio_volume_mute,[],iot,volume_mute
+508,what alarms are set,alarm_query,[],alarm,query
+441,what are the latest news headlines,news_query,[],news,query
+6438,today i searched all over for my phone and couldn't find it,general_quirky,['content:today i searched all over for my phone and couldn't find it'],qa,quirky
+5286,show bbc news of migration,news_query,"['media_type : bbc', 'news_topic : migration']",news,query
+9986,boiling,cooking_recipe,['cooking_type : boiling'],cooking,recipe
+7741,clear my calendar for saturday,calendar_remove,['date : saturday'],calendar,remove
+9520,play the last doctor who radio broadcast,play_radio,['radio_name:the last doctor who'],radio,radio
+1589,is it going to be sunny next tuesday,weather_query,"['weather_descriptor : sunny', 'date : next tuesday']",weather,query
+6227,i am going to work today,general_quirky,['content:i am going to work today'],qa,quirky
+7170,it's my mother's birthday today send me a notification every year on this date,calendar_set,"['relation : mother', 'event_name : birthday', 'date : today', 'general_frequency : every year']",calendar,set
+2234,i can't see turn up the lights,iot_hue_lightup,[],iot,hue_lightup
+7918,calendar event send invite bill malinda,calendar_set,"['person : bill malinda','event_name:send invite']",calendar,set
+14368,how much will be the world population after twenty years,general_quirky,['content:how much will be the world population after twenty years'],qa,quirky
+4851,is my alarm set,alarm_query,[],alarm,query
+781,play bilando,play_music,['song_name : bilando'],music,music
+3011,retrieve the light for me,iot_hue_lightup,[],iot,hue_lightup
+2472,is the time currently correct for where i am located,datetime_query,[],datetime,query
+1703,my vacuum cleaner should start between ten to eleven am everyday,iot_cleaning,"['device_type : vacuum cleaner', 'time : ten', 'time : eleven am', 'general_frequency : everyday']",iot,cleaning
+14884,what is the least tornado prone state in the entire us,qa_factoid,['content:what is the least tornado prone state in the entire us'],qa,factoid
+9216,play my station,play_radio,[],radio,radio
+4930,turn on an alarm for three thirty pm today,alarm_set,"['time : three thirty pm', 'date : today']",alarm,set
+10226,let me know the recipe for preparing pasta,cooking_recipe,['food_type : pasta'],cooking,recipe
+1551,turn on wemo,iot_wemo_on,[],iot,wemo_on
+1377,please turn off the light of my son's room,iot_hue_lightoff,"[""house_place : my son's room""]",iot,hue_lightoff
+7000,new event,calendar_set,[],calendar,set
