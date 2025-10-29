@@ -8,7 +8,8 @@ import json
 llm_config_dict = {
     "llm_name": "deepseek-chat",
     "temperature": 0.0,
-     "api_key": "",
+    "base_url": "",#the url for deepseek
+    "api_key": "",#the api key for deepseek
 }
 llm_config = LLMConfig(llm_config_dict)
 llm = get_llm_backend(llm_config)
