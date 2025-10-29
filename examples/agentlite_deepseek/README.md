@@ -1,0 +1,1 @@
+用本仓库中的文件替换AgentLite_main\agentlite\llm目录下的agent_llms.py。主要在OPENAI_CHAT_MODELS中加入"deepseek-chat"。
