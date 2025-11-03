@@ -1,0 +1,9 @@
+[
+    {
+        "model": "deepseek-chat",
+        "base_url":"https://api.deepseek.com/v1",
+        "temperature":0,
+        "api_key": "",
+        "tags": ["deepseek-chat", "tool"]
+    }
+]
