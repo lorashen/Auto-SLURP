@@ -16,7 +16,7 @@ llm_config_dict = {
     "temperature": 0.0,
      "api_key": "",
 }
-#                currency server is https://www.amdoren.com/api/currency.php?api_key=Dc2GCVsAUnGTRaKpSzHdhk7T2DkwWC&from={currency}&to={currency2}&amount={amount}\n\
+#                currency server is https://www.amdoren.com/api/currency.php?api_key={key}&from={currency}&to={currency2}&amount={amount}\n\
 llm_config = LLMConfig(llm_config_dict)
 llm = get_llm_backend(llm_config)
 class ExecAgent(BaseAgent):
@@ -25,12 +25,12 @@ class ExecAgent(BaseAgent):
     ):
         name = "ExecAgent"
         role = "read the params, and send and receive the requests. choose the url from the servers' url list:\
-                qa server is http://api.serpstack.com/search?access_key=9855fc61d5622f00667f95f025417d1e&query={query}\n\
-                news query server is http://api.mediastack.com/v1/news?access_key=ecfa6b4eed035d6d6c411e5a51bb0e3b&keywords={keyword}&date={date}&sort=published_desc\n\
+                qa server is http://api.serpstack.com/search?access_key={key}&query={query}\n\
+                news query server is http://api.mediastack.com/v1/news?access_key={key}&keywords={keyword}&date={date}&sort=published_desc\n\
                 news subscription server http://127.0.0.1:3020/news,intent(news_subscription),news_topic,\
                 weather server first request https://geocoding-api.open-meteo.com/v1/search?name={place_name}&count=10&language=en&format=json to get latitude and latitude, then request https://api.open-meteo.com/v1/forecast?latitude={latitude}&longitude={longitude}&daily=temperature_2m_max,temperature_2m_min,sunrise,sunset,uv_index_max,rain_sum,showers_sum,snowfall_sum,wind_speed_10m_max\n\
-                stock server is first to get the stock symbol http://api.serpstack.com/search? access_key = 9855fc61d5622f00667f95f025417d1e& query = {name} stock symbol , then request to this server http://api.marketstack.com/v1/eod? access_key = d64ab15e52d4670f5822ae7aec11c9b7& symbols = {symbol}&limit=5\n\
-                currency server is https://api.freecurrencyapi.com/v1/latest?apikey=fca_live_NJNQO444AOmZET1PU3bW20vcOiaHZqamKw9QFfrb&base_currency={currency}&currencies={currency2}\n\
+                stock server is first to get the stock symbol http://api.serpstack.com/search? access_key = {key}& query = {name} stock symbol , then request to this server http://api.marketstack.com/v1/eod? access_key = d64ab15e52d4670f5822ae7aec11c9b7& symbols = {symbol}&limit=5\n\
+                currency server is https://api.freecurrencyapi.com/v1/latest?apikey={key}&base_currency={currency}&currencies={currency2}\n\
                 http://127.0.0.1:3000/alarm, intent(alarm_query,alarm_set),event_name,descriptor,time,from_time,to_time,\
                 http://127.0.0.1:3001/audiobook,intent(play_audiobook), player_setting,house_place,media_type,descriptor,audiobook_name,author_name,\
                 http://127.0.0.1:3002/calendar,intent(calendar_query,calendar_remove,calendar_set),event_name,descriptor,person,relation,date,time,from_time,to_time,\
