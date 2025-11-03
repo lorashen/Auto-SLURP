@@ -34,12 +34,12 @@ def check():
             data = json.loads(jsondata)
             print(data)
         else:
-            return_dict = {'code': 'FAIL', 'msg': '失败，缺少参数'}
+            return_dict = {'code': 'FAIL', 'msg': 'fail, missing parameters'}
             return return_dict
         params = ['intent', ]
         for param in params:
             if param not in data:
-                return_dict = {'code': 'FAIL', 'msg': '失败，缺少参数：' + param}
+                return_dict = {'code': 'FAIL', 'msg': 'fail, missing parameters: ' + param}
                 return return_dict
         intent = data.get('intent')
         #iid = str(data.get('iid'))
@@ -101,7 +101,7 @@ def check():
             if key.find("date")!=-1:
                 if datep.match(value) is None:
                     response="date format not right"
-    print('耗时：' + str(time.time()-start_time))
+    print('time: ' + str(time.time()-start_time))
     print('----------------------')
     return_dict = {}
     return_dict['code'] = 'SUCCESS'
@@ -112,10 +112,10 @@ def check():
     return_dict['data'] = contents
     return return_dict
         
-print("模型load完毕")
+print("finish loading")
 
 if __name__ == "__main__":
-        print("启动开始---------")
+        print("start---------")
         port = sys.argv[1]
         app.run(debug=False, host='0.0.0.0',port=port)
-        print("启动完成---------")
+        print("startup completed---------")
