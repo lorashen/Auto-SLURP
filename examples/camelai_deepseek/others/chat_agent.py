@@ -185,7 +185,7 @@ class ChatAgent(BaseAgent):
             getattr(system_message, 'role_type', None) or RoleType.ASSISTANT
         )
         model = ModelFactory.create(
-          api_key="sk-c39229e11df8416cb552d3adcd0e46e5",
+          api_key="",
           url="https://api.deepseek.com/v1",
           model_platform=ModelPlatformType.DEEPSEEK,
           model_type=ModelType.DEEPSEEK_CHAT,
